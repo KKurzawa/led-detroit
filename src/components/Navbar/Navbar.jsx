@@ -2,7 +2,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-around w-full text-3xl'>
+        <nav className='nav flex justify-around w-full text-3xl'>
             <button onClick={() => setTimeout(() => {
                 const element = document.querySelector('#Shows');
                 element?.scrollIntoView({ behavior: 'smooth' })

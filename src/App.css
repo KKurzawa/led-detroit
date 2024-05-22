@@ -16,7 +16,10 @@
     /* variables */
 
     /* fonts */
-    --FONT-ONE: 'Kashmir Regular'
+    --FONT-ONE: 'Kashmir Regular';
+
+    /* colors */
+    --FONT-COLOR-ONE: whitesmoke;
   }
 
   main{
