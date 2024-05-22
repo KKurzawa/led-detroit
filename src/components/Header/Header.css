@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Kashmir Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kashmir'), url('Kashmir.ttf') format('ttf');
+    }
+
+h1{
+    font-family: 'Kashmir Regular';
+}
