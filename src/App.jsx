@@ -1,6 +1,4 @@
 import './App.css';
-// import Navbar from './Components/Navbar/Navbar';
-// import NavbarMobile from './Components/NavbarMobile/NavbarMobile';
 import Footer from './components/Footer/Footer';
 import Landing from './Pages/Landing/Landing';
 import { Outlet } from 'react-router-dom';

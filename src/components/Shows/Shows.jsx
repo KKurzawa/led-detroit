@@ -2,7 +2,7 @@ import ',/Shows.css'
 
 const Shows = () => {
     return (
-        <div>Shows</div>
+        <main id='Shows'>Shows</main>
     )
 }
 

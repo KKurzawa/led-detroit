@@ -2,7 +2,7 @@ import './Band.css'
 
 const Band = () => {
     return (
-        <div>Band</div>
+        <main id='Band'>Band</main>
     )
 }
 

@@ -1,9 +1,9 @@
 import './Header.css'
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../Navbar/Navbar.jsx'
 
 const Header = () => {
     return (
-        <main className='flex justify-center'>
+        <main className='flex flex-col items-center'>
             <h1 className='flex text-5xl'>LED-DETROIT</h1>
             <Navbar />
         </main>
