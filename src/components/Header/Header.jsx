@@ -3,8 +3,8 @@ import Navbar from '../Navbar/Navbar.jsx'
 
 const Header = () => {
     return (
-        <main className='flex flex-col items-center'>
-            <h1 className='header-header flex text-5xl'>LED-DETROIT</h1>
+        <main className='flex items-center my-7'>
+            <h1 className='header-header flex text-5xl w-72 ml-12'>LED-DETROIT</h1>
             <Navbar />
         </main>
 

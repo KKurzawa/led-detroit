@@ -10,6 +10,7 @@
     opacity: 1;
     z-index: 1;
     background-color: #B59330;
+    font-family: var(--FONT-TWO);
 }
 
 .shows-header::before{

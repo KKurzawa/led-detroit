@@ -3,7 +3,7 @@ import Shows from '../../components/Shows/Shows'
 
 const Home = () => {
     return (
-        <main className='home-main-container flex flex-col justify-evenly items-center h-screen'>
+        <main className='home-main-container flex flex-col items-center h-screen'>
             <article id='Shows' className='flex flex-col items-center'>
                 <Shows />
             </article>
