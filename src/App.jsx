@@ -11,18 +11,18 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 600000);
+    }, 8000);
   }, []);
 
   if (isLoading) {
     return <Landing />
   }
   return (
-    <>
+    <main id='app-main-container'>
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </ main>
 
   )
 }

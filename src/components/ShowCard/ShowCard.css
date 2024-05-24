@@ -1,0 +1,7 @@
+.date,
+.venue,
+.tckt-btn{
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+    font-size: x-large;
+}

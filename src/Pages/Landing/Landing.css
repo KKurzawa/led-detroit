@@ -2,5 +2,84 @@
 .landing-description{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-TWO);
-    
+}
+
+.landing-header{
+    animation: landing-header-fade-in 2s linear 2s 1 both;
+}
+
+.landing-logo{
+    animation: landing-logo-fade-in 4s linear 1 both;
+}
+
+#detroit,
+#mobile-detroit{
+    animation: landing-description-fade-in 2s linear 2.5s 1 both
+}
+
+#ultimate,
+#mobile-ultimate{
+    animation: landing-description-fade-in 2s linear 3s 1 both
+}
+
+#led,
+#mobile-led{
+    animation: landing-description-fade-in 2s linear 3.5s 1 both
+}
+
+#zeppelin{
+    animation: landing-description-fade-in 2s linear 4s 1 both
+}
+
+
+#mobile-experience{
+    animation: landing-description-fade-in 2s linear 4s 1 both
+}
+
+#experience{
+        animation: landing-description-fade-in 2s linear 4.5s 1 both
+}
+
+.landing-main-container{
+    animation: landing-fade-out 1s linear 6.5s 1 both;
+}
+
+@keyframes landing-header-fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes landing-logo-fade-in {
+    0%{
+        opacity: 0;
+        /* width: 0; */
+        /* transform: rotateX(270deg); */
+    }
+    100%{
+        opacity: 1;
+        /* width: 24rem; */
+        /* transform: rotateX(360deg); */
+    }
+}
+
+@keyframes landing-description-fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes landing-fade-out {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }

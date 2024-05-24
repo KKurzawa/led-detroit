@@ -23,8 +23,21 @@
     --BACKGROUND-COLOR-TWO: BLACK;
   }
 
-  #root{}
+
 
   main{
     font-family: var(--FONT-ONE);
+  }
+
+  #app-main-container{
+    animation: main-fade-in 2s linear 1 both;
+  }
+
+  @keyframes main-fade-in {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
   }
