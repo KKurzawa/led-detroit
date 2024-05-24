@@ -1,9 +1,5 @@
 .shows-header{
     color: var(--FONT-COLOR-TWO);
-    /* background-image: url('/ZeppelinSymbolOne.png');
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: top center; */
     width: 100vw;
     height: 5rem;
     position: relative;
@@ -14,7 +10,6 @@
 }
 
 .shows-header::before{
-    /* position: absolute; */
     content: '';
     background-image: url('/ZeppelinSymbolOne.png');
     background-repeat: no-repeat;
@@ -45,6 +40,6 @@
     align-items: center;
     margin-bottom: -3rem;
     margin-left: 3rem;
-    opacity: .5;
+    opacity: .4;
     z-index: 0;
 }

@@ -1,5 +1,9 @@
 import './Home.css'
 import Shows from '../../components/Shows/Shows'
+import Band from '../../components/Band/Band'
+import Videos from '../../components/Videos/Videos'
+import Testimonials from '../../components/Testimonials/Testimonials'
+import Contact from '../../components/Contact/Contact'
 
 const Home = () => {
     return (
@@ -8,18 +12,17 @@ const Home = () => {
                 <Shows />
             </article>
             <article id='Band' className='flex flex-col items-center'>
-                <h2 className='text-3xl'>Band</h2>
-                <h2 className='relative bottom-9 opacity-50 text-5xl text-yellow-800'>»</h2>
+                <Band />
             </article>
             <article id='Videos' className='flex flex-col items-center'>
-                <h2 className='text-3xl'>Videos</h2>
-                <h2 className='relative bottom-9 opacity-50 text-5xl text-yellow-800'>«</h2>
+                <Videos />
             </article>
             <article id='Testimonials' className='flex flex-col items-center'>
-                <h2 className='text-3xl'>Testiomials</h2>
-                <h2 className='relative bottom-9 opacity-50 text-5xl text-yellow-800'>@</h2>
+                <Testimonials />
             </article>
-            <article id='Contact'>Contact</article>
+            <article id='Contact' className='flex flex-col items-center'>
+                <Contact />
+            </article>
         </main>
     )
 }

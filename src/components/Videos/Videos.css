@@ -1,0 +1,45 @@
+.videos-header{
+    color: var(--FONT-COLOR-TWO);
+    width: 100vw;
+    height: 5rem;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    background-color: #B59330;
+    font-family: var(--FONT-TWO);
+}
+
+.videos-header::before{
+    content: '';
+    background-image: url('/ZeppelinSymbolThree.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3rem;
+    margin-right: 3rem;
+    opacity: .4;
+    z-index: 0;
+}
+
+
+.videos-header::after{
+    content: '';
+    background-image: url('/ZeppelinSymbolThree.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3rem;
+    margin-left: 3rem;
+    opacity: .4;
+    z-index: 0;
+}

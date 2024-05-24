@@ -1,0 +1,12 @@
+.footer{
+    background-color: var(--BACKGROUND-COLOR-ONE);
+    color: var(--TEXT-COLOR-TWO);
+}
+
+.mailto,
+.phone,
+.copyright,
+.dev-link{
+    background-color: var(--BACKGROUND-COLOR-ONE);
+    font-family: var(--FONT-THREE);
+}
