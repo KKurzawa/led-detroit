@@ -1,0 +1,34 @@
+#band-member,
+.mobile-member-pic {
+    position: relative;
+    z-index: 1;
+    filter: sepia(1);
+    /* width: 100%;
+    height: auto; */
+}
+
+#band-member::before{
+    position: absolute;
+    content: '';
+    background-size:cover;
+    background-image: url('../../../public/CropCirclesPic.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .2;
+    filter: grayscale(.4);
+}
+
+.member-pic{
+    filter: sepia(1);
+    z-index: 1;
+    position: relative;
+}
+
+.member-name,
+.mobile-member-header{
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+}

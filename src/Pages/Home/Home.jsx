@@ -7,7 +7,7 @@ import Contact from '../../components/Contact/Contact'
 
 const Home = () => {
     return (
-        <main className='home-main-container flex flex-col items-center h-screen'>
+        <main className='home-main-container flex flex-col items-center h-auto'>
             <article id='Shows' className='flex flex-col items-center'>
                 <Shows />
             </article>

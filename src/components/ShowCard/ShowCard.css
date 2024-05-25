@@ -1,7 +1,14 @@
+.single-card{
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
 .date,
 .venue,
 .tckt-btn{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     font-size: x-large;
+    z-index: 1;
+    background-color: transparent;
 }
