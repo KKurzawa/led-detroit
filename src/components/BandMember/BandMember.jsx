@@ -19,7 +19,7 @@ const BandMember = () => {
                     </article>
                 ))}
             </article>
-            <article className='flex flex-col items-center my-10'>
+            <article className='flex flex-col md:hidden items-center my-10'>
                 {bandMemberList.map((member) => (
                     <>
                         <h2 key={member.name} className='mobile-member-header text-4xl'>{member.name}</h2>
