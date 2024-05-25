@@ -11,11 +11,11 @@ const BandMember = () => {
                     </article>
                 ))}
             </article>
-            <article className='hidden md:flex mb-10'>
+            <article className='hidden md:flex justify-center mb-10 mx-32'>
                 {bandMemberList.map((item, index) => index > 2 && (
-                    <article key={item.id} className='flex flex-col items-center'>
+                    <article key={item.id} className='flex flex-col justify-center items-center'>
                         <h2 key={item.name} className='member-name md:text-4xl lg:text-5xl'>{item.name}</h2>
-                        <img key={item.image} src={item.image} id='band-member' className='w-[50%] h-auto' />
+                        <img key={item.image} src={item.image} id='band-member' className='w-[65%] h-auto rounded-3xl' />
                     </article>
                 ))}
             </article>
