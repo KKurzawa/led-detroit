@@ -1,27 +1,39 @@
-export const navLinks = [
+import ZepPicOne from '/ZeppelinSymbolOne.png'
+import ZepPicTwo from '/ZeppelinSymbolTwo.png'
+import ZepPicThree from '/ZeppelinSymbolThree.png'
+import ZepPicFour from '/ZeppelinSymbolOne.png'
+
+const navLinks = [
     {
         title: 'Shows',
-        link: '#Shows',
+        href: '#Shows',
+        pic: ZepPicOne,
         id: 1
     },
     {
         title: 'Band',
-        link: '#Band',
+        href: '#Band',
+        pic: ZepPicTwo,
         id: 2
     },
     {
         title: 'Videos',
-        link: '#Videos',
+        href: '#Videos',
+        pic: ZepPicThree,
         id: 3
     },
     {
         title: 'Testimonials',
-        link: '#Testimonials',
+        href: '#Testimonials',
+        pic: ZepPicFour,
         id: 4
     },
     {
         title: 'Contact',
-        link: '#Contact',
+        href: '#Contact',
+        pic: ZepPicOne,
         id: 5
     },
 ]
+
+export default navLinks
