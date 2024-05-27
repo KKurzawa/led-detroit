@@ -12,8 +12,10 @@ const NavbarMobile = () => {
     useClickAway(ref, () => setOpen(false));
 
     return (
-        <nav ref={ref} className="md:hidden ">
-            <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
+        <nav ref={ref} className="mobile-nav md:hidden">
+            <article id='hamburger'>
+                <Hamburger id='hamburger' toggled={isOpen} size={35} toggle={setOpen} color='#B59330' label="Show menu" rounded distance='lg' />
+            </article>
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
@@ -21,12 +23,10 @@ const NavbarMobile = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-0 bg-neutral-950 border-b border-b-white/20"
+                        className="motion-div absolute left-0 right-0 top-24 p-5 pt-0"
                     >
                         <ul className="grid gap-2">
                             {Navlinks.map((route, idx) => {
-                                const { Icon } = route;
-
                                 return (
                                     <motion.li
                                         initial={{ scale: 0, opacity: 0 }}
@@ -38,18 +38,18 @@ const NavbarMobile = () => {
                                             delay: 0.1 + idx / 10,
                                         }}
                                         key={route.title}
-                                        className="w-full p-[0.08rem] rounded-xl bg-gradient-to-tr from-neutral-800 via-neutral-950 to-neutral-700"
+                                        className="route-title w-full p-[0.08rem] rounded-3xl"
                                     >
                                         <a
                                             onClick={() => setOpen((prev) => !prev)}
                                             className={
-                                                "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
+                                                "flex items-center justify-between w-full"
                                             }
                                             href={route.href}
                                         >
-                                            <span className="flex gap-1 text-lg text-white">{route.title}</span>
-                                            <Icon className="text-xl" />
+                                            <span className="link-title flex text-2xl pl-5 py-2">{route.title}</span>
                                         </a>
+                                        <img src='' alt='' />
                                     </motion.li>
                                 );
                             })}

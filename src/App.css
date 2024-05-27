@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--BACKGROUND-COLOR-TWO);
+    /* background-color: var(--BACKGROUND-COLOR-TWO); */
 
     /* variables */
 
@@ -22,7 +22,10 @@
     --BACKGROUND-COLOR-TWO: BLACK;
   }
 
-
+  html{
+    background-color: var(--BACKGROUND-COLOR-TWO);
+    scroll-behavior: smooth;
+  }
 
   main{
     font-family: var(--FONT-ONE);

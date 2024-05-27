@@ -1,0 +1,20 @@
+.mobile-nav{
+    z-index: 2;
+    scroll-behavior: smooth;
+}
+
+#hamburger{
+    padding-right: 10px;
+}
+.motion-div{
+    background-color: var(--BACKGROUND-COLOR-TWO);
+}
+.route-title{
+    border: 1px solid var(--FONT-COLOR-THREE);
+    background: linear-gradient(to right, var(--BACKGROUND-COLOR-TWO) 5%, var(--BACKGROUND-COLOR-ONE))
+}
+
+.link-title{
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-TWO);
+}
