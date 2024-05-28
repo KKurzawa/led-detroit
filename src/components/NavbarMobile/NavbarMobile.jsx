@@ -38,7 +38,7 @@ const NavbarMobile = () => {
                                             delay: 0.1 + idx / 10,
                                         }}
                                         key={route.title}
-                                        className="route-title w-full p-[0.08rem] rounded-3xl"
+                                        className="route-title flex w-full h-full rounded-3xl py-2"
                                     >
                                         <a
                                             onClick={() => setOpen((prev) => !prev)}
@@ -47,9 +47,9 @@ const NavbarMobile = () => {
                                             }
                                             href={route.href}
                                         >
-                                            <span className="link-title flex text-2xl pl-5 py-2">{route.title}</span>
+                                            <span className="link-title flex text-2xl pl-5">{route.title}</span>
                                         </a>
-                                        <img src='' alt='' />
+                                        <img src={route.pic} alt='Zeppelin Symbol' className='flex items-center justify-center w-20 h-full pr-5 opacity-85' />
                                     </motion.li>
                                 );
                             })}

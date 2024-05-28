@@ -1,3 +1,9 @@
+#Testimonials {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
 .testimonials-header{
     color: var(--FONT-COLOR-TWO);
     width: 100vw;
@@ -5,41 +11,6 @@
     position: relative;
     opacity: 1;
     z-index: 1;
-    background-color: #B59330;
+    background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
-}
-
-.testimonials-header::before{
-    content: '';
-    background-image: url('/ZeppelinSymbolFour.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-right: 3rem;
-    opacity: .4;
-    z-index: 0;
-}
-
-
-.testimonials-header::after{
-    content: '';
-    background-image: url('/ZeppelinSymbolFour.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-left: 3rem;
-    opacity: .4;
-    z-index: 0;
 }

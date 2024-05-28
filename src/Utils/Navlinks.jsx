@@ -1,7 +1,7 @@
 import ZepPicOne from '/ZeppelinSymbolOne.png'
 import ZepPicTwo from '/ZeppelinSymbolTwo.png'
 import ZepPicThree from '/ZeppelinSymbolThree.png'
-import ZepPicFour from '/ZeppelinSymbolOne.png'
+import ZepPicFour from '/ZeppelinSymbolFour.png'
 
 const navLinks = [
     {

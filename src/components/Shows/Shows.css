@@ -2,7 +2,6 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    height: auto;
 }
 
 #Shows::before{
@@ -15,52 +14,15 @@
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: .2;
-    /* filter: grayscale(1); */
+    opacity: .15;
+    filter: sepia(.5)
 }
 
 .shows-header{
     color: var(--FONT-COLOR-TWO);
-    width: 100vw;
-    height: 5rem;
     position: relative;
     opacity: 1;
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
-}
-
-.shows-header::before{
-    content: '';
-    background-image: url('/ZeppelinSymbolOne.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-right: 3rem;
-    opacity: .4;
-    z-index: 0;
-}
-
-
-.shows-header::after{
-    content: '';
-    background-image: url('/ZeppelinSymbolOne.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-left: 3rem;
-    opacity: .4;
-    z-index: 0;
 }
