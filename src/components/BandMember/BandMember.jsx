@@ -8,6 +8,7 @@ const BandMember = () => {
                     <article key={item.id} className='flex flex-col items-center'>
                         <h2 key={item.name} className='member-name md:text-4xl lg:text-5xl'>{item.name}</h2>
                         <img key={item.image} src={item.image} id='band-member' className='w-[75%] h-auto rounded-3xl' />
+                        <i>{item.facebookIcon}</i>
                     </article>
                 ))}
             </article>

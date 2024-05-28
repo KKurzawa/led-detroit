@@ -47,7 +47,7 @@ const NavbarMobile = () => {
                                             }
                                             href={route.href}
                                         >
-                                            <span className="link-title flex text-2xl pl-5">{route.title}</span>
+                                            <span className="link-title flex text-5xl pl-5">{route.title}</span>
                                         </a>
                                         <img src={route.pic} alt='Zeppelin Symbol' className='flex items-center justify-center w-20 h-full pr-5 opacity-85' />
                                     </motion.li>
