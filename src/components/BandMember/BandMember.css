@@ -28,7 +28,12 @@
 }
 
 .member-name,
-.mobile-member-header{
+.mobile-member-header,
+.artists{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
+}
+
+.fbIcon{
+    color: var(--FONT-COLOR-THREE)
 }
