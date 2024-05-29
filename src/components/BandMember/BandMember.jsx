@@ -9,7 +9,23 @@ const BandMember = () => {
                         <h2 key={item.name} className='member-name md:text-4xl lg:text-5xl'>{item.name}</h2>
                         <img key={item.image} src={item.image} id='band-member' className='w-[75%] h-auto rounded-3xl pb-5' />
                         <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
-                        <i className='fbIcon'>{item.facebookIcon}</i>
+                        <article className='flex flex-row'>
+                            <i className='media-icon my-1'><button className='media-icon' onClick={() => setTimeout(() => {
+                                window.open(item.facebookLink, '_blank')
+                            }, 500)}>{item.facebookIcon}</button></i>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
+                                window.open(item.instagramLink, '_blank')
+                                , 500)}>{item.instagramIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.websiteLink, '_blank')
+                                , 500)}>{item.websiteIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.appleLink, '_blank')
+                                , 500)}>{item.appleIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.spotifyLink, '_blank')
+                                , 500)}>{item.spotifyIcon}</button></i>
+                        </article>
                     </article>
                 ))}
             </article>
@@ -19,7 +35,23 @@ const BandMember = () => {
                         <h2 key={item.name} className='member-name md:text-4xl lg:text-5xl'>{item.name}</h2>
                         <img key={item.image} src={item.image} id='band-member' className='w-[65%] h-auto rounded-3xl pb-3' />
                         <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
-                        <i className='fbIcon'>{item.facebookIcon}</i>
+                        <article className='flex flex-row'>
+                            <i className='media-icon mb-5'><button className='media-icon' onClick={() => setTimeout(() => {
+                                window.open(item.facebookLink, '_blank')
+                            }, 500)}>{item.facebookIcon}</button></i>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
+                                window.open(item.instagramLink, '_blank')
+                                , 500)}>{item.instagramIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.websiteLink, '_blank')
+                                , 500)}>{item.websiteIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.appleLink, '_blank')
+                                , 500)}>{item.appleIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(item.spotifyLink, '_blank')
+                                , 500)}>{item.spotifyIcon}</button></i>
+                        </article>
                     </article>
                 ))}
             </article>
@@ -29,7 +61,23 @@ const BandMember = () => {
                         <h2 key={member.name} className='mobile-member-header text-4xl'>{member.name}</h2>
                         <img src={member.image} key={member.image} alt='band member picture' className='mobile-member-pic w-[75%] rounded-2xl' />
                         <p key={member.artists} className='artists lg:text-[1.25rem]'>{member.artists}</p>
-                        <i className='fbIcon mb-5'>{member.facebookIcon}</i>
+                        <article className='flex flex-row'>
+                            <i className='media-icon mb-5'><button className='media-icon' onClick={() => setTimeout(() => {
+                                window.open(member.facebookLink, '_blank')
+                            }, 500)}>{member.facebookIcon}</button></i>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
+                                window.open(member.instagramLink, '_blank')
+                                , 500)}>{member.instagramIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(member.websiteLink, '_blank')
+                                , 500)}>{member.websiteIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(member.appleLink, '_blank')
+                                , 500)}>{member.appleIcon}</button></i>
+                            <i className='media-icon'><button onClick={() => setTimeout(() =>
+                                window.open(member.spotifyLink, '_blank')
+                                , 500)}>{member.spotifyIcon}</button></i>
+                        </article>
                     </>
                 ))}
             </article>

@@ -33,7 +33,7 @@ const bandMemberList = [
         artists: 'Alexander Zonjic/Jeff Lorber/The Kris Kurzawa Group',
         facebookIcon: <FaFacebookSquare />,
         facebookLink: 'https://www.facebook.com/KrisKurzawaGuitar/',
-        insigramIcon: <FaInstagramSquare />,
+        instagramIcon: <FaInstagramSquare />,
         instagramLink: 'https://www.instagram.com/k_kurzawa/',
         websiteIcon: <TbWorld />,
         websiteLink: 'https://www.kriskurzawaguitar.com/',

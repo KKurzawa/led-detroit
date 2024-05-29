@@ -10,6 +10,7 @@
 #band-member::before{
     position: absolute;
     content: '';
+    pointer-events: none;
     background-size:cover;
     background-image: url('../../../public/CropCirclesPic.png');
     background-repeat: no-repeat;
@@ -32,8 +33,10 @@
 .artists{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
+    z-index: 1;
 }
 
-.fbIcon{
-    color: var(--FONT-COLOR-THREE)
+.media-icon{
+    color: var(--FONT-COLOR-THREE);
+    z-index: 1;
 }
