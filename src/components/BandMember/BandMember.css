@@ -7,28 +7,18 @@
     height: auto; */
 }
 
-#band-member::before{
-    position: absolute;
-    content: '';
-    pointer-events: none;
-    background-size:cover;
-    background-image: url('../../../public/CropCirclesPic.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: .2;
-    filter: grayscale(.4);
-}
-
 .member-pic{
     filter: sepia(1);
     z-index: 1;
     position: relative;
 }
 
-.member-name,
+.member-name{
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+    z-index: 1;
+}
+
 .mobile-member-header,
 .artists{
     color: var(--FONT-COLOR-THREE);
@@ -39,4 +29,10 @@
 .media-icon{
     color: var(--FONT-COLOR-THREE);
     z-index: 1;
+}
+
+.img-bck{
+    width: 50px;
+    height: 5opx;
+    background-color: var(--BACKGROUND-COLOR-ONE);
 }

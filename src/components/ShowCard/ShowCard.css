@@ -1,16 +1,18 @@
-.single-card{
-    border: 1px solid rgba(128, 128, 128, 0.36);
-    border-radius: 50%;
-    background-color: var(--BACKGROUND-COLOR-ONE);
+.card-container {
+    opacity: 1;
     z-index: 1;
+}
+.single-card{
+    border: 1px solid var(--FONT-COLOR-THREE);
+    border-radius: 50%;
+    background-color: var(--BACKGROUND-COLOR-TWO);
+    
 }
 
 .date,
 .venue,
 .tckt-btn{
-    color: var(--FONT-COLOR-TWO);
+    color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
-    font-size: x-large;
     z-index: 1;
-    background-color: transparent;
 }

@@ -12,9 +12,9 @@ const ShowCard = () => {
     }
 
     return (
-        <main className='card-container my-5'>
+        <main className='card-container flex flex-col w-full h-full items-center my-5'>
             {showList.map((item, index) => (
-                <article key={index} className='single-card flex flex-col items-center justify-center p-5 m-5'>
+                <article key={index} className='single-card flex flex-col items-center justify-center w-[22rem] h-full py-20 m-5 text-4xl'>
                     <h2 className='date'>{item.date}</h2>
                     <button onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')

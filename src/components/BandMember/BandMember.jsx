@@ -33,6 +33,7 @@ const BandMember = () => {
                 {bandMemberList.map((item, index) => index > 2 && (
                     <article key={item.id} className='flex flex-col justify-center items-center'>
                         <h2 key={item.name} className='member-name md:text-4xl lg:text-5xl'>{item.name}</h2>
+                        <div className='image-bck'>DIV</div>
                         <img key={item.image} src={item.image} id='band-member' className='w-[65%] h-auto rounded-3xl pb-1 lg:pb-3' />
                         <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
                         <article className='flex flex-row'>
