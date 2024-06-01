@@ -19,10 +19,13 @@
     --FONT-COLOR-ONE: whitesmoke;
     --FONT-COLOR-TWO: #100D04;
     --FONT-COLOR-THREE: #B59330;
-    --FONT-COLOR-FOUR: #771818;
+    --FONT-COLOR-FOUR: #981F1F;
 
     --BACKGROUND-COLOR-ONE: #B59330;
     --BACKGROUND-COLOR-TWO: #100D04;
+
+    /* borders */
+    --HOVER-BORDER-ONE: 2px solid var(--FONT-COLOR-FOUR);
   }
 
   html{

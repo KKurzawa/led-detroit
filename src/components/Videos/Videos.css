@@ -55,6 +55,7 @@
     transition: width .5s ease-in-out;
     white-space: nowrap;
     overflow: hidden;
+    border-bottom: var(--HOVER-BORDER-BOTTOM);
 }
 
 .videos-top-btn:hover::before{
