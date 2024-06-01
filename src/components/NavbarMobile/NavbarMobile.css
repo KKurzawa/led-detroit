@@ -5,6 +5,7 @@
 
 #hamburger{
     padding-right: 14px;
+    padding-bottom: 4px;
 }
 .motion-div{
     background-color: var(--BACKGROUND-COLOR-TWO);
