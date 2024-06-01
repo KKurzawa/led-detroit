@@ -26,3 +26,33 @@
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
 }
+
+.shows-top-btn-container{
+    background-color: var(--BACKGROUND-COLOR-TWO);
+    position: relative;
+    z-index: 1;
+}
+
+.shows-top-btn{
+    position: relative;
+    z-index: 1;
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+    display: inline-block;
+}
+
+.shows-top-btn::before{
+    content: attr(data-hover);
+    color: firebrick;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 0%;
+    transition: width .5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shows-top-btn:hover::before{
+    width: 100%;
+}

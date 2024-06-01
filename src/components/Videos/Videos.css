@@ -29,3 +29,35 @@
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
 }
+
+
+.videos-top-btn-container{
+    background-color: var(--BACKGROUND-COLOR-TWO);
+    position: relative;
+    z-index: 1;
+}
+
+.videos-top-btn{
+    position: relative;
+    z-index: 1;
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+    display: inline-block;
+}
+
+.videos-top-btn::before{
+    content: attr(data-hover);
+    color: firebrick;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 0%;
+    transition: width .5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.videos-top-btn:hover::before{
+    width: 100%;
+}
+
