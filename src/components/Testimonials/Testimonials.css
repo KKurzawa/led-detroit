@@ -32,7 +32,7 @@
 
 .testimonials-top-btn::before{
     content: attr(data-hover);
-    color: firebrick;
+    color: var(--FONT-COLOR-FOUR);
     position: absolute;
     top: 12px;
     left: 0;

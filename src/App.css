@@ -17,11 +17,12 @@
 
     /* colors */
     --FONT-COLOR-ONE: whitesmoke;
-    --FONT-COLOR-TWO: black;
+    --FONT-COLOR-TWO: #100D04;
     --FONT-COLOR-THREE: #B59330;
+    --FONT-COLOR-FOUR: #771818;
 
     --BACKGROUND-COLOR-ONE: #B59330;
-    --BACKGROUND-COLOR-TWO: BLACK;
+    --BACKGROUND-COLOR-TWO: #100D04;
   }
 
   html{

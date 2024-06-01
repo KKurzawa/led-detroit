@@ -76,20 +76,35 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     display: inline-block;
+    transition: background-color .5s ease-in-out;
+    background-color: transparent;
+    padding-top: 5px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .band-top-btn::before{
     content: attr(data-hover);
-    color: firebrick;
+    color: var(--FONT-COLOR-FOUR);
     position: absolute;
-    top: 12px;
-    left: 0;
-    width: 0%;
+    top: 0;
+    left: -1000px;
+    width: 0;
     transition: width .5s ease-in-out;
     white-space: nowrap;
     overflow: hidden;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 .band-top-btn:hover::before{
     width: 100%;
+    left: 0;
+}
+
+.band-top-btn:hover{
+    background-color: var(--BACKGROUND-COLOR-ONE);
 }
