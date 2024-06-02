@@ -16,3 +16,28 @@
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
+
+
+.venue{
+    position: relative;
+    z-index: 1;
+    color: var(--FONT-COLOR-THREE);
+    font-family: var(--FONT-THREE);
+    display: inline-block;
+}
+
+.venue::before{
+    content: attr(data-hover);
+    color: var(--FONT-COLOR-FOUR);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    transition: width .5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.venue:hover::before{
+    width: 100%;
+}

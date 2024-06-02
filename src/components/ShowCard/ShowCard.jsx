@@ -16,7 +16,7 @@ const ShowCard = () => {
             {showList.map((item, index) => (
                 <article key={index} className='single-card flex flex-col items-center justify-center w-[22rem] h-full py-20 m-5 text-4xl'>
                     <h2 className='date'>{item.date}</h2>
-                    <button onClick={() => setTimeout(() =>
+                    <button data-hover={item.venue} onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')
                         , 500)} className='venue'>{item.venue}</button>
                     {item.ticketLink === 1 ? (
