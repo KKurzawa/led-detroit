@@ -20,12 +20,15 @@
     --FONT-COLOR-TWO: #100D04;
     --FONT-COLOR-THREE: #B59330;
     --FONT-COLOR-FOUR: #981F1F;
+    --FONT-COLOR-FIVE: #33180B;
 
     --BACKGROUND-COLOR-ONE: #B59330;
     --BACKGROUND-COLOR-TWO: #100D04;
 
     /* borders */
     --HOVER-BORDER-ONE: 2px solid var(--FONT-COLOR-FOUR);
+
+    --BORDER-ONE: 2px solid var(--FONT-COLOR-FIVE);
   }
 
   html{

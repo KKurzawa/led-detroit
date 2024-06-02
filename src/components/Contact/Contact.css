@@ -12,6 +12,8 @@
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
+    border-top: var(--BORDER-ONE);
+    border-bottom: var(--BORDER-ONE);
 }
 
 

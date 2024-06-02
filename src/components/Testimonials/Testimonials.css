@@ -40,7 +40,8 @@
     transition: width .5s ease-in-out;
     white-space: nowrap;
     overflow: hidden;
-    border-bottom: var(--HOVER-BORDER-ONE);
+    border-top: var(--BORDER-ONE);
+    border-bottom: var(--BORDER-ONE);
 }
 
 .testimonials-top-btn:hover::before{

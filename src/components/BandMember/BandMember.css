@@ -3,8 +3,6 @@
     position: relative;
     z-index: 1;
     filter: sepia(1);
-    /* width: 100%;
-    height: auto; */
 }
 
 .member-pic{
@@ -29,6 +27,14 @@
 .media-icon{
     color: var(--FONT-COLOR-THREE);
     z-index: 1;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: color 0.5s ease-in-out;
+}
+
+.media-icon:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
 .img-bck{
