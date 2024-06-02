@@ -10,6 +10,7 @@
 
 .landing-logo{
     animation: landing-logo-fade-in 4s linear 1 both;
+    filter: contrast(1);
 }
 
 #detroit,
@@ -75,11 +76,11 @@
     }
 }
 
-@keyframes landing-fade-out {
+/* @keyframes landing-fade-out {
     0%{
         opacity: 1;
     }
     100%{
         opacity: 0;
     }
-}
+} */
