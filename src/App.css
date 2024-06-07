@@ -26,9 +26,10 @@
     --BACKGROUND-COLOR-TWO: #100D04;
 
     /* borders */
-    --HOVER-BORDER-ONE: 2px solid var(--FONT-COLOR-FOUR);
+    --HOVER-BORDER-ONE: 2px solid #981F1F;
 
-    --BORDER-ONE: 2px solid var(--FONT-COLOR-FIVE);
+    --BORDER-ONE: 2px solid #100D04;
+    --BORDER-TWO: 2px solid #B59330;
   }
 
   html{

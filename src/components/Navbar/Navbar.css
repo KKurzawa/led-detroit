@@ -6,8 +6,8 @@
 .nav-btn{
     position: relative;
     display: inline-block;
-    height: 100%;
     padding-bottom: 7px;
+    text-align: center;
 }
 
 .nav-btn::before{

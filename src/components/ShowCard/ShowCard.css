@@ -1,13 +1,19 @@
 .card-container {
     opacity: 1;
     z-index: 1;
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-TWO)
 }
 .single-card{
     border: 1px solid var(--FONT-COLOR-THREE);
     border-radius: 50%;
-    background-color: var(--BACKGROUND-COLOR-TWO);
-    
+    background-color: var(--BACKGROUND-COLOR-TWO);   
 }
+
+/* .single-card::before{
+    content: 'Test';
+    color: red;
+} */
 
 .date,
 .venue,
@@ -18,7 +24,8 @@
 }
 
 
-.venue{
+.venue,
+.tckt-btn{
     position: relative;
     z-index: 1;
     color: var(--FONT-COLOR-THREE);
@@ -26,7 +33,8 @@
     display: inline-block;
 }
 
-.venue::before{
+.venue::before,
+.tckt-btn::before{
     content: attr(data-hover);
     color: var(--FONT-COLOR-FOUR);
     position: absolute;
@@ -38,6 +46,7 @@
     overflow: hidden;
 }
 
-.venue:hover::before{
+.venue:hover::before,
+.tckt-btn:hover::before{
     width: 100%;
 }

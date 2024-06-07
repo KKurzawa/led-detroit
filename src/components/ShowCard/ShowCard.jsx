@@ -12,7 +12,7 @@ const ShowCard = () => {
     }
 
     return (
-        <main className='card-container flex flex-col w-full h-full items-center my-5'>
+        <main className='card-container flex flex-col w-full h-full items-center py-5'>
             {showList.map((item, index) => (
                 <article key={index} className='single-card flex flex-col items-center justify-center w-[22rem] h-full py-20 m-5 text-4xl'>
                     <h2 className='date'>{item.date}</h2>
@@ -20,15 +20,15 @@ const ShowCard = () => {
                         window.open(item.venueLink, '_blank')
                         , 500)} className='venue'>{item.venue}</button>
                     {item.ticketLink === 1 ? (
-                        <button onClick={() => setTimeout(() =>
+                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
                             ticketsNotYetAvailable()
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     ) : item.ticketLink === 2 ? (
-                        <button onClick={() => setTimeout(() =>
+                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
                             freeShow()
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     ) :
-                        <button onClick={() => setTimeout(() =>
+                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
                             window.open(item.ticketLink, '_blank')
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     }

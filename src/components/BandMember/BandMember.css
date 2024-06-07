@@ -1,14 +1,18 @@
-#band-member,
+.member-pic,
 .mobile-member-pic {
     position: relative;
     z-index: 1;
     filter: sepia(1);
 }
 
-.member-pic{
-    filter: sepia(1);
-    z-index: 1;
-    position: relative;
+.member-pic::before{
+   content: '';
+   background-color: 'red';
+   display: inline-block;
+   /* top: 5px;
+   left: 1px; */
+   width: 100%;
+   height: 100%;
 }
 
 .member-name{
@@ -37,8 +41,3 @@
     color: var(--FONT-COLOR-FOUR)
 }
 
-.img-bck{
-    width: 50px;
-    height: 5opx;
-    background-color: var(--BACKGROUND-COLOR-ONE);
-}

@@ -3,7 +3,7 @@
     z-index: 1;
 }
 
-#Band::before{
+/* #Band::before{
     position: absolute;
     content: '';
     background-size:cover;
@@ -15,56 +15,18 @@
     z-index: 0;
     opacity: .15;
     filter: sepia(.5);
-}
+} */
 
 .band-header{
     color: var(--FONT-COLOR-TWO);
-    width: 100vw;
-    height: 5rem;
     position: relative;
     opacity: 1;
     z-index: 1;
-    background-color: #B59330;
+    background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
     border-top: var(--BORDER-ONE);
     border-bottom: var(--BORDER-ONE);
 }
-
-.band-header::before{
-    content: '';
-    background-image: url('/ZeppelinSymbolTwo.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-right: 3rem;
-    opacity: .4;
-    z-index: 0;
-}
-
-
-.band-header::after{
-    content: '';
-    background-image: url('/ZeppelinSymbolTwo.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: top center;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -3rem;
-    margin-left: 3rem;
-    opacity: .4;
-    z-index: 0;
-}
-
 
 .band-top-btn-container{
     background-color: var(--BACKGROUND-COLOR-TWO);
