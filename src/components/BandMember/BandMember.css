@@ -1,35 +1,51 @@
 .member-pic,
-.mobile-member-pic {
+.member-pic-container,
+.mobile-member-pic,
+.member-name,
+.artists {
     position: relative;
-    z-index: 1;
-    filter: sepia(1);
+    z-index: 2;
 }
 
-.member-pic::before{
-   content: '';
-   background-color: 'red';
-   display: inline-block;
-   /* top: 5px;
-   left: 1px; */
-   width: 100%;
-   height: 100%;
+.member-pic,
+.mobile-member-pic{
+filter: sepia(1);
+
+}
+
+.band-member-main{
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-ONE);
+    z-index: 1;
+    position: relative;
+}
+.member-container,
+.mobile-member-container{
+    position: relative;
+    background-color: var(--BACKGROUND-COLOR-ONE);
+}
+
+.img-bg-box{
+    
+    background-color: var(--BACKGROUND-COLOR-ONE);
+   
 }
 
 .member-name{
-    color: var(--FONT-COLOR-THREE);
+    color: var(--FONT-COLOR-TWO);
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
 
 .mobile-member-header,
 .artists{
-    color: var(--FONT-COLOR-THREE);
+    color: var(--FONT-COLOR-TWO);
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
 
 .media-icon{
-    color: var(--FONT-COLOR-THREE);
+    color: var(--FONT-COLOR-TWO);
     z-index: 1;
     position: relative;
     z-index: 1;

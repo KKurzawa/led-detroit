@@ -33,6 +33,8 @@
     background-color: var(--BACKGROUND-COLOR-TWO);
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-TWO);
 }
 
 .shows-top-btn{

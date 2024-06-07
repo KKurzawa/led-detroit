@@ -9,3 +9,7 @@ h1{
     font-family: var(--FONT-TWO);
     color: var(--FONT-COLOR-THREE);
 }
+
+#top{
+    border-bottom: var(--BORDER-TWO);
+}

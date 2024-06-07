@@ -2,7 +2,8 @@
     opacity: 1;
     z-index: 1;
     border-top: var(--BORDER-TWO);
-    border-bottom: var(--BORDER-TWO)
+    border-bottom: var(--BORDER-ONE);
+    position: relative;
 }
 .single-card{
     border: 1px solid var(--FONT-COLOR-THREE);
@@ -10,10 +11,6 @@
     background-color: var(--BACKGROUND-COLOR-TWO);   
 }
 
-/* .single-card::before{
-    content: 'Test';
-    color: red;
-} */
 
 .date,
 .venue,

@@ -3,7 +3,7 @@
     z-index: 1;
 }
 
-/* #Band::before{
+#Band::before{
     position: absolute;
     content: '';
     background-size:cover;
@@ -15,7 +15,7 @@
     z-index: 0;
     opacity: .15;
     filter: sepia(.5);
-} */
+}
 
 .band-header{
     color: var(--FONT-COLOR-TWO);
@@ -32,6 +32,8 @@
     background-color: var(--BACKGROUND-COLOR-TWO);
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-TWO);
 }
 
 .band-top-btn{

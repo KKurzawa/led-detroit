@@ -7,11 +7,11 @@ import Contact from '../../components/Contact/Contact'
 
 const Home = () => {
     return (
-        <main className='home-main-container flex flex-col items-center h-auto'>
+        <main className='home-main-container flex flex-col items-center w-full h-auto'>
             <article id='Shows' className='flex flex-col items-center'>
                 <Shows />
             </article>
-            <article id='Band' className='flex flex-col items-center'>
+            <article id='Band' className='flex flex-col items-center w-full'>
                 <Band />
             </article>
             <article id='Videos' className='flex flex-col items-center'>
