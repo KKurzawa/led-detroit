@@ -7,10 +7,15 @@
     z-index: 2;
 }
 
+.img-container{
+    border: var(--BORDER-TWO);
+
+}
 .member-pic,
 .mobile-member-pic{
 filter: sepia(1);
-
+position: relative;
+z-index: 1;
 }
 
 .band-member-main{
@@ -22,30 +27,26 @@ filter: sepia(1);
 .member-container,
 .mobile-member-container{
     position: relative;
-    background-color: var(--BACKGROUND-COLOR-ONE);
-}
-
-.img-bg-box{
-    
-    background-color: var(--BACKGROUND-COLOR-ONE);
-   
+    background-color: var(--BACKGROUND-COLOR-TWO);
+    z-index: 1;
+    border: var(--BORDER-TWO)
 }
 
 .member-name{
-    color: var(--FONT-COLOR-TWO);
+    color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
 
 .mobile-member-header,
 .artists{
-    color: var(--FONT-COLOR-TWO);
+    color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
 
 .media-icon{
-    color: var(--FONT-COLOR-TWO);
+    color: var(--FONT-COLOR-THREE);
     z-index: 1;
     position: relative;
     z-index: 1;

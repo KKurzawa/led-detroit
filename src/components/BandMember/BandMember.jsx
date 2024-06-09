@@ -7,7 +7,9 @@ const BandMember = () => {
                 {bandMemberList.map((item, index) => index < 3 && (
                     <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-3 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
-                        <img key={item.image} src={item.image} className='member-pic w-[95%] h-auto rounded-3xl pb-1 lg:pb-3' />
+                        <section className='img-container flex justify-center w-[95%] mb-1 lg:mb-3 rounded-3xl'>
+                            <img key={item.image} src={item.image} className='member-pic w-full h-auto rounded-3xl' />
+                        </section>
                         <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
                         <article className='flex flex-row'>
                             <i className='media-icon mx-1 lg:mx-2 my-1 lg:my-3 text-2xl lg:text-3xl'><button className='media-icon' onClick={() => setTimeout(() => {
@@ -34,8 +36,8 @@ const BandMember = () => {
                 {bandMemberList.map((item, index) => index > 2 && (
                     <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-3 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
-                        <article className='member-pic-container flex justify-center'>
-                            <img key={item.image} src={item.image} className='member-pic w-[95%] h-auto rounded-3xl pb-1 lg:pb-3' />
+                        <article className='img-container flex justify-center w-[95%] mb-1 lg:mb-3 rounded-3xl'>
+                            <img key={item.image} src={item.image} className='member-pic w-full h-auto rounded-3xl' />
                         </article>
                         <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
                         <article className='flex flex-row'>
@@ -63,7 +65,9 @@ const BandMember = () => {
                     <>
                         <article className='mobile-member-container flex flex-col items-center w-[90%] mb-10 rounded-3xl'>
                             <h2 key={member.name} className='mobile-member-header text-4xl pt-3'>{member.name}</h2>
-                            <img src={member.image} key={member.image} alt='band member picture' className='mobile-member-pic w-[85%] rounded-3xl' />
+                            <section className='img-container w-[85%] rounded-3xl mb-1'>
+                                <img src={member.image} key={member.image} alt='band member picture' className='mobile-member-pic w-full rounded-3xl' />
+                            </section>
                             <p key={member.artists} className='artists lg:text-[1.25rem]'>{member.artists}</p>
                             <article className='flex flex-row'>
                                 <i className='media-icon text-2xl mx-2 mb-2'><button onClick={() => setTimeout(() => {
