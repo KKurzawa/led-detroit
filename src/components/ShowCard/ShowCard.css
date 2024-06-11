@@ -28,22 +28,12 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     display: inline-block;
+    transition: color .5s ease-in-out;
 }
 
-.venue::before,
-.tckt-btn::before{
-    content: attr(data-hover);
-    color: var(--FONT-COLOR-FOUR);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    transition: width .5s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
+.venue:hover,
+.tckt-btn:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
-.venue:hover::before,
-.tckt-btn:hover::before{
-    width: 100%;
-}
+

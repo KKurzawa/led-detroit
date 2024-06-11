@@ -1,5 +1,6 @@
 import './Videos.css'
 import ZepSymbolThree from '/ZeppelinSymbolThree.png'
+import Video from '../Video/Video'
 
 const Videos = () => {
     return (
@@ -9,8 +10,9 @@ const Videos = () => {
                 <header className='flex justify-center items-center text-5xl mx-10'>VIDEOS</header>
                 <img src={ZepSymbolThree} alt='Zeppelin Symbol' className='w-10 h-10' />
             </article>
+            <Video />
             <article className='videos-top-btn-container flex justify-center w-full h-auto'>
-                <button className='videos-top-btn w-fit h-auto py-3 text-4xl' data-hover='To The Top' onClick={() => setTimeout(() => {
+                <button className='videos-top-btn w-fit h-auto my-3 text-4xl' onClick={() => setTimeout(() => {
                     const element = document.querySelector('#top');
                     element?.scrollIntoView({ behavior: 'smooth' })
                 }, 500)}>To The Top</button>

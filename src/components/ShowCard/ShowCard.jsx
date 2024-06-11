@@ -16,19 +16,19 @@ const ShowCard = () => {
             {showList.map((item, index) => (
                 <article key={index} className='single-card flex flex-col items-center justify-center w-[22rem] h-full py-20 m-5 text-4xl'>
                     <h2 className='date'>{item.date}</h2>
-                    <button data-hover={item.venue} onClick={() => setTimeout(() =>
+                    <button onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')
                         , 500)} className='venue'>{item.venue}</button>
                     {item.ticketLink === 1 ? (
-                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
+                        <button onClick={() => setTimeout(() =>
                             ticketsNotYetAvailable()
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     ) : item.ticketLink === 2 ? (
-                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
+                        <button onClick={() => setTimeout(() =>
                             freeShow()
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     ) :
-                        <button data-hover='GET TICKETS' onClick={() => setTimeout(() =>
+                        <button onClick={() => setTimeout(() =>
                             window.open(item.ticketLink, '_blank')
                             , 500)} className='tckt-btn'>Get Tickets</button>
                     }

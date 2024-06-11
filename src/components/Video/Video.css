@@ -1,0 +1,6 @@
+.video-main {
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-ONE);
+    position: relative;
+    z-index: 1;
+}

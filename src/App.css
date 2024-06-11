@@ -9,12 +9,7 @@
     /* fonts */
     --FONT-TWO: 'Kashmir', sans-serif;
     --FONT-THREE: "Bebas Neue", sans-serif;
-
-    --WIDE-LETTER-SPACING: 5px;
-
     
-                                                
-
     /* colors */
     --FONT-COLOR-ONE: whitesmoke;
     --FONT-COLOR-TWO: #100D04;
@@ -30,6 +25,7 @@
 
     --BORDER-ONE: 2px solid #100D04;
     --BORDER-TWO: 2px solid #B59330;
+    --BORDER-THREE: 1px solid #B59330;
   }
 
   html{

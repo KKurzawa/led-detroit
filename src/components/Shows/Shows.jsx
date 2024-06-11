@@ -12,7 +12,7 @@ const Shows = () => {
             </article>
             <ShowCard />
             <article className='shows-top-btn-container flex justify-center w-full h-auto'>
-                <button className='shows-top-btn w-fit h-auto py-3 text-4xl' data-hover='To The Top' onClick={() => setTimeout(() => {
+                <button className='shows-top-btn w-fit h-auto my-3 text-4xl' data-hover='To The Top' onClick={() => setTimeout(() => {
                     const element = document.querySelector('#top');
                     element?.scrollIntoView({ behavior: 'smooth' })
                 }, 500)}>To The Top</button>

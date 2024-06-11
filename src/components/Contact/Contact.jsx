@@ -1,5 +1,6 @@
 import './Contact.css'
 import ZepSymbolTwo from '/ZeppelinSymbolTwo.png'
+import ContactForm from '../ContactForm/ContactForm'
 
 const Contact = () => {
     return (
@@ -9,8 +10,9 @@ const Contact = () => {
                 <header className='flex justify-center items-center text-5xl mx-10'>CONTACT</header>
                 <img src={ZepSymbolTwo} alt='Zeppelin Symbol' className='w-10 h-10' />
             </article>
+            <ContactForm />
             <article className='contact-top-btn-container flex justify-center w-full h-auto'>
-                <button className='contact-top-btn w-fit h-auto py-3 text-4xl' data-hover='To The Top' onClick={() => setTimeout(() => {
+                <button className='contact-top-btn w-fit h-auto my-3 text-4xl' onClick={() => setTimeout(() => {
                     const element = document.querySelector('#top');
                     element?.scrollIntoView({ behavior: 'smooth' })
                 }, 500)}>To The Top</button>

@@ -4,6 +4,19 @@
     width: 100%;
     height: auto;
 }
+#Contact::before{
+    position: absolute;
+    content: '';
+    background-size:cover;
+    background-image: url('../../../public/CropCirclesPic.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .15;
+    filter: grayscale(.4);
+}
 
 .contact-header{
     color: var(--FONT-COLOR-TWO);
@@ -21,6 +34,8 @@
     background-color: var(--BACKGROUND-COLOR-TWO);
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-TWO);
 }
 
 .contact-top-btn{
@@ -29,22 +44,34 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     display: inline-block;
+    transition: color .5s ease-in-out;
+}
+
+.contact-top-btn:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
 .contact-top-btn::before{
-    content: attr(data-hover);
-    color: var(--FONT-COLOR-FOUR);
+    content:'';
     position: absolute;
-    top: 12px;
+    bottom: 0;
     left: 0;
     width: 0%;
-    transition: width .5s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
     border-bottom: var(--HOVER-BORDER-ONE);
+    transition: width .5s ease-in-out;
 }
 
-.contact-top-btn:hover::before{
-    width: 100%;
+.contact-top-btn::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    border-bottom: var(--HOVER-BORDER-ONE);
+    transition: width .5s ease-in-out;
 }
 
+.contact-top-btn:hover::before,
+.contact-top-btn:hover::after{
+    width: 50%;
+}

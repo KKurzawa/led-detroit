@@ -4,6 +4,21 @@
     width: 100%;
     height: auto;
 }
+
+#Testimonials::before{
+    position: absolute;
+    content: '';
+    background-size:cover;
+    background-image: url('../../../public/CropCirclesPic.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .15;
+    filter: grayscale(.4);
+}
+
 .testimonials-header{
     color: var(--FONT-COLOR-TWO);
     width: 100vw;
@@ -13,6 +28,8 @@
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-TWO);
+    border-top: var(--BORDER-ONE);
+    border-bottom: var(--BORDER-ONE);
 }
 
 
@@ -20,6 +37,8 @@
     background-color: var(--BACKGROUND-COLOR-TWO);
     position: relative;
     z-index: 1;
+    border-top: var(--BORDER-TWO);
+    border-bottom: var(--BORDER-TWO);
 }
 
 .testimonials-top-btn{
@@ -28,23 +47,34 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     display: inline-block;
+    transition: color .5s ease-in-out;
+}
+
+.testimonials-top-btn:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
 .testimonials-top-btn::before{
-    content: attr(data-hover);
-    color: var(--FONT-COLOR-FOUR);
+    content:'';
     position: absolute;
-    top: 12px;
+    bottom: 0;
     left: 0;
     width: 0%;
+    border-bottom: var(--HOVER-BORDER-ONE);
     transition: width .5s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
-    border-top: var(--BORDER-ONE);
-    border-bottom: var(--BORDER-ONE);
 }
 
-.testimonials-top-btn:hover::before{
-    width: 100%;
+.testimonials-top-btn::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    border-bottom: var(--HOVER-BORDER-ONE);
+    transition: width .5s ease-in-out;
 }
 
+.testimonials-top-btn:hover::before,
+.testimonials-top-btn:hover::after{
+    width: 50%;
+}

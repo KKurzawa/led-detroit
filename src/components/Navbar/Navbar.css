@@ -1,6 +1,11 @@
-.nav{
+.nav-btn{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-TWO);
+    transition: color .5s ease-in-out;
+}
+
+.nav-btn:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
 .nav-btn{
@@ -11,20 +16,27 @@
 }
 
 .nav-btn::before{
-    content: attr(data-hover);
-    color: var(--FONT-COLOR-FOUR);
+    content:'';
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 0%;
-    height: 100%;
+    border-bottom: var(--HOVER-BORDER-ONE);
     transition: width .5s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
-    border-bottom: var(--HOVER-BORDER-ONE)
 }
 
-.nav-btn:hover::before{
-    width: 100%;
+.nav-btn::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    border-bottom: var(--HOVER-BORDER-ONE);
+    transition: width .5s ease-in-out;
+}
+
+.nav-btn:hover::before,
+.nav-btn:hover::after{
+    width: 50%;
 }
 

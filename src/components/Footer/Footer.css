@@ -1,6 +1,6 @@
 .footer{
     background-color: var(--BACKGROUND-COLOR-ONE);
-    color: var(--TEXT-COLOR-TWO);
+    border-top: var(--BORDER-ONE);
 }
 
 .mailto,
@@ -9,4 +9,19 @@
 .dev-link{
     background-color: var(--BACKGROUND-COLOR-ONE);
     font-family: var(--FONT-THREE);
+    color: #100D04;
+    position: relative;
+    display: inline-block;
+}
+
+.mailto,
+.phone,
+.dev-link{
+    transition: color .5s ease-in-out;
+}
+
+.mailto:hover,
+.phone:hover,
+.dev-link:hover{
+    color: #981F1F;
 }

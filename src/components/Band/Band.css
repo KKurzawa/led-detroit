@@ -42,23 +42,34 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     display: inline-block;
+    transition: color .5s ease-in-out;
+}
+
+.band-top-btn:hover{
+    color: var(--FONT-COLOR-FOUR)
 }
 
 .band-top-btn::before{
-    content: attr(data-hover);
-    color: var(--FONT-COLOR-FOUR);
+    content:'';
     position: absolute;
-    top: 12px;
+    bottom: 0;
     left: 0;
     width: 0%;
-    transition: width .5s ease-in-out;
-    white-space: nowrap;
-    overflow: hidden;
     border-bottom: var(--HOVER-BORDER-ONE);
-
+    transition: width .5s ease-in-out;
 }
 
-.band-top-btn:hover::before{
-    width: 100%;
+.band-top-btn::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    border-bottom: var(--HOVER-BORDER-ONE);
+    transition: width .5s ease-in-out;
 }
 
+.band-top-btn:hover::before,
+.band-top-btn:hover::after{
+    width: 50%;
+}
