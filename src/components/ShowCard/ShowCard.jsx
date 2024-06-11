@@ -19,6 +19,7 @@ const ShowCard = () => {
                     <button onClick={() => setTimeout(() =>
                         window.open(item.venueLink, '_blank')
                         , 500)} className='venue'>{item.venue}</button>
+                    <h2 className='city'>{item.location}</h2>
                     {item.ticketLink === 1 ? (
                         <button onClick={() => setTimeout(() =>
                             ticketsNotYetAvailable()

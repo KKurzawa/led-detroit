@@ -14,7 +14,8 @@
 
 .date,
 .venue,
-.tckt-btn{
+.tckt-btn,
+.city{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-THREE);
     z-index: 1;
