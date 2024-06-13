@@ -4,3 +4,8 @@
     position: relative;
     z-index: 1;
 }
+
+.ro-video{
+    border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR)
+}

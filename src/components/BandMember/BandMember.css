@@ -28,6 +28,7 @@ z-index: 1;
 .mobile-member-container{
     position: relative;
     background-color: var(--BACKGROUND-COLOR-TWO);
+    outline: var(--BORDER-FOUR);
     z-index: 1;
     border: var(--BORDER-TWO)
 }

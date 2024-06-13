@@ -3,8 +3,6 @@
     z-index: 1;
     width: 100%;
     height: auto;
-    /* border-top: var(--BORDER-TWO);
-    border-bottom: var(--BORDER-ONE); */
 }
 
 #Videos::before{

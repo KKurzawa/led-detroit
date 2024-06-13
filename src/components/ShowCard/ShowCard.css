@@ -6,7 +6,8 @@
     position: relative;
 }
 .single-card{
-    border: 1px solid var(--FONT-COLOR-THREE);
+    border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR);
     border-radius: 50%;
     background-color: var(--BACKGROUND-COLOR-TWO);   
 }
