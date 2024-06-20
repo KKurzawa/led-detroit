@@ -4,11 +4,25 @@
     width: 100%;
 }
 
-#Shows::before{
+/* #Shows::before{
     position: absolute;
     content: '';
     background-size:cover;
     background-image: url('../../../public/CropCirclesPic.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .15;    
+    filter: sepia(.5)
+} */
+
+.show-card-container::before{
+    position: absolute;
+    content: '';
+    background-size:cover;
+    background-image: url('../../../public/DoubleCropCirclesAlt.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
