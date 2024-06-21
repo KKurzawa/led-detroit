@@ -17,7 +17,7 @@ const navLinks = [
         id: 2
     },
     {
-        title: 'Videos',
+        title: 'Video',
         href: '#Videos',
         pic: ZepPicThree,
         id: 3

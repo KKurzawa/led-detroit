@@ -14,7 +14,7 @@ const Navbar = () => {
             <button className='nav-btn' onClick={() => setTimeout(() => {
                 const element = document.querySelector('#Videos');
                 element?.scrollIntoView({ behavior: 'smooth' })
-            }, 500)}>VIDEOS</button>
+            }, 500)}>VIDEO</button>
             <button className='nav-btn' onClick={() => setTimeout(() => {
                 const element = document.querySelector('#Testimonials');
                 element?.scrollIntoView({ behavior: 'smooth' })

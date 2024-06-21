@@ -22,7 +22,7 @@
     position: absolute;
     content: '';
     background-size:cover;
-    background-image: url('../../../public/DoubleCropCirclesAlt.png');
+    background-image: url('../../../public/TripleCropCircle.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
@@ -31,6 +31,12 @@
     opacity: .15;    
     filter: sepia(.5)
 }
+
+@media (max-width: 480px) {
+    .show-card-container::before {
+     background-image: url('../../../public/SixCropCircle.png');
+     }
+ }
 
 .shows-header{
     color: var(--FONT-COLOR-TWO);

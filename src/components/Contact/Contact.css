@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
 }
-#Contact::before{
+/* #Contact::before{
     position: absolute;
     content: '';
     background-size:cover;
@@ -16,6 +16,21 @@
     z-index: 0;
     opacity: .15;
     filter: grayscale(.4);
+} */
+
+.contact-container::before{
+    position: absolute;
+    content: '';
+    background-size:cover;
+    background-image: url('../../../public/SingleCropCircle.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 80%;
+    z-index: 0;
+    opacity: .15;
+    filter: sepia(.5);
+    overflow: hidden;
 }
 
 .contact-header{
