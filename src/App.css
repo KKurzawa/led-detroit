@@ -16,6 +16,7 @@
     --FONT-COLOR-THREE: #B59330;
     --FONT-COLOR-FOUR: #981F1F;
     --FONT-COLOR-FIVE: #33180B;
+    --FONT-COLOR-SIX: #b5943061;
 
     --BACKGROUND-COLOR-ONE: #B59330;
     --BACKGROUND-COLOR-TWO: #100D04;
@@ -27,6 +28,7 @@
     --BORDER-TWO: 2px solid #B59330;
     --BORDER-THREE: 1px solid #B59330;
     --BORDER-FOUR: 4px solid #100D04;
+    --BORDER-FIVE: 4px solid #B59330;
   }
 
   html{

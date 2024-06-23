@@ -5,7 +5,7 @@
     height: auto;
 }
 
-#Testimonials::before{
+/* #Testimonials::before{
     position: absolute;
     content: '';
     background-size:cover;
@@ -17,7 +17,7 @@
     z-index: 0;
     opacity: .15;
     filter: grayscale(.4);
-}
+} */
 
 .testimonials-header{
     color: var(--FONT-COLOR-TWO);

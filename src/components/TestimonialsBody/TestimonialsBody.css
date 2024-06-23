@@ -1,14 +1,21 @@
-.contact-form{
-    border-top: var(--BORDER-TWO);
+.testimonials-body{
+    border-top: var(--BORDER-TWO)
+}
+
+.testimonial-container{
+    font-family: var(--FONT-THREE);
+    color: var(--FONT-COLOR-THREE)
+}
+.testimonials-form{
+    /* border-top: var(--BORDER-TWO); */
     border-bottom: var(--BORDER-ONE);
     position: relative;
     z-index: 1;
 }
 
-.name,
-.email,
-.subject,
-.message{
+.first-name,
+.last-name,
+.experience{
     position: relative;
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-TWO);
@@ -17,14 +24,13 @@
     outline: var(--BORDER-FOUR);
 }
 
-.name::placeholder,
-.email::placeholder,
-.subject::placeholder,
-.message::placeholder{
+.first-name::placeholder,
+.last-name::placeholder,
+.experience::placeholder{
     color: var(--FONT-COLOR-SIX)
 }
 
-.submit-btn{
+.post-btn{
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
     border: var(--BORDER-TWO);
@@ -32,7 +38,7 @@
     transition: all 500ms ease-in-out;
 }
 
-.submit-btn:hover{
+.post-btn:hover{
     background-color: var(--BACKGROUND-COLOR-ONE);
     color: var(--FONT-COLOR-TWO);
     border: var(--BORDER-ONE);
