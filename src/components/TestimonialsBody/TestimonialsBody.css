@@ -1,9 +1,9 @@
 .testimonials-body{
-    border-top: var(--BORDER-TWO)
+    border-top: var(--BORDER-TWO);
 }
 
 .testimonial-container{
-    font-family: var(--FONT-THREE);
+    font-family: var(--FONT-ONE); 
     color: var(--FONT-COLOR-THREE)
 }
 .testimonials-form{
@@ -22,12 +22,14 @@
     color: var(--FONT-COLOR-THREE);
     border: var(--BORDER-TWO);
     outline: var(--BORDER-FOUR);
+    font-family: var(--FONT-ONE); 
 }
 
 .first-name::placeholder,
 .last-name::placeholder,
 .experience::placeholder{
-    color: var(--FONT-COLOR-SIX)
+    color: var(--FONT-COLOR-SIX);
+    font-family: var(--FONT-ONE); 
 }
 
 .post-btn{
@@ -36,6 +38,7 @@
     border: var(--BORDER-TWO);
     outline: var(--BORDER-FOUR);
     transition: all 500ms ease-in-out;
+    font-family: var(--FONT-THREE); 
 }
 
 .post-btn:hover{

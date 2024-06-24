@@ -73,7 +73,7 @@ const ContactForm = () => {
                     onChange={(e) => setMessage(e.target.value)}
                 />
             </article>
-            <button type='submit' className='submit-btn w-44 rounded-2xl text-3xl mb-10 py-2'>SUBMIT</button>
+            <button type='submit' className='submit-btn w-44 rounded-2xl text-3xl mb-10 py-2'>Submit</button>
         </form>
     )
 }

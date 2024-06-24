@@ -15,13 +15,15 @@
     color: var(--FONT-COLOR-THREE);
     border: var(--BORDER-TWO);
     outline: var(--BORDER-FOUR);
+    font-family: var(--FONT-ONE);
 }
 
 .name::placeholder,
 .email::placeholder,
 .subject::placeholder,
 .message::placeholder{
-    color: var(--FONT-COLOR-SIX)
+    color: var(--FONT-COLOR-SIX);
+    font-family: var(--FONT-ONE);
 }
 
 .submit-btn{
@@ -30,6 +32,7 @@
     border: var(--BORDER-TWO);
     outline: var(--BORDER-FOUR);
     transition: all 500ms ease-in-out;
+    font-family: var(--FONT-THREE);
 }
 
 .submit-btn:hover{
