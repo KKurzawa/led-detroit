@@ -22,19 +22,25 @@
     position: absolute;
     content: '';
     background-size:cover;
-    background-image: url('../../../public/TripleCropCircle.png');
+    background-image: url('../../../public/FourCropCircle2.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: .15;    
-    filter: sepia(.5)
+    opacity: .25;    
+    /* filter: sepia(.1) */
 }
+
+@media (min-width: 481px) and (max-width: 830px) {
+    .band-member-container::before {
+     background-image: url('../../../public/FourCropCircle2.png');
+     }
+ }
 
 @media (max-width: 480px) {
     .show-card-container::before {
-     background-image: url('../../../public/SixCropCircle.png');
+     background-image: url('../../../public/SixCropCircle2.png');
      }
  }
 

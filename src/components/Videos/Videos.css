@@ -23,14 +23,14 @@
     position: absolute;
     content: '';
     background-size:cover;
-    background-image: url('../../../public/DoubleCropCircle.png');
+    background-image: url('../../../public/ThreeCropCircle2.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: .15;
-    filter: sepia(.5);
+    opacity: .25;    
+    /* filter: sepia(.1) */
 }
 
 .videos-header{
