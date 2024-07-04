@@ -8,7 +8,8 @@
 }
 
 .img-container{
-    border: var(--BORDER-THREE);
+    /* border: var(--BORDER-THREE); */
+    box-shadow: var(--BOX-SHADOW-TWO);
 
 }
 .member-pic,
@@ -28,9 +29,10 @@ z-index: 1;
 .mobile-member-container{
     position: relative;
     background-color: var(--BACKGROUND-COLOR-TWO);
-    outline: var(--BORDER-FOUR);
+    /* outline: var(--BORDER-FOUR); */
     z-index: 1;
-    border: var(--BORDER-TWO)
+    /* border: var(--BORDER-TWO) */
+    box-shadow: var(--BOX-SHADOW-ONE);
 }
 
 .member-name{

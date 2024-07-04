@@ -6,10 +6,11 @@
     position: relative;
 }
 .single-card{
-    border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR);
+    /* border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR); */
     border-radius: 50%;
     background-color: var(--BACKGROUND-COLOR-TWO);   
+    box-shadow: var(--BOX-SHADOW-ONE);
 }
 
 

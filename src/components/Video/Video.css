@@ -6,6 +6,7 @@
 }
 
 .ro-video{
-    border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR)
+    /* border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR) */
+    box-shadow: var(--BOX-SHADOW-ONE);
 }
