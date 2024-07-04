@@ -5,12 +5,12 @@ const BandMember = () => {
         <main className='band-member-main w-full h-full'>
             <article className='hidden md:flex justify-around my-10 w-full h-auto'>
                 {bandMemberList.map((item, index) => index < 3 && (
-                    <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-3 rounded-3xl'>
+                    <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-5 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
                         <section className='img-container flex justify-center w-[95%] mb-1 lg:mb-3 rounded-3xl'>
                             <img key={item.image} src={item.image} className='member-pic w-full h-auto rounded-3xl' />
                         </section>
-                        <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
+                        <p key={item.artists} className='artists text-[.7rem] lg:text-[1.25rem]'>{item.artists}</p>
                         <article className='flex flex-row'>
                             <i className='media-icon mx-1 lg:mx-2 my-1 lg:my-3 text-2xl lg:text-3xl'><button className='media-icon' onClick={() => setTimeout(() => {
                                 window.open(item.facebookLink, '_blank')
@@ -34,12 +34,12 @@ const BandMember = () => {
             </article>
             <article className='hidden md:flex justify-center mb-10 mx-32'>
                 {bandMemberList.map((item, index) => index > 2 && (
-                    <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-3 rounded-3xl'>
+                    <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-5 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
                         <article className='img-container flex justify-center w-[95%] mb-1 lg:mb-3 rounded-3xl'>
                             <img key={item.image} src={item.image} className='member-pic w-full h-auto rounded-3xl' />
                         </article>
-                        <p key={item.artists} className='artists text-xs lg:text-[1.25rem]'>{item.artists}</p>
+                        <p key={item.artists} className='artists text-[.7rem] lg:text-[1.25rem]'>{item.artists}</p>
                         <article className='flex flex-row'>
                             <i className='media-icon mx-1 lg:mx-2 my-1 lg:my-3 text-2xl lg:text-3xl'><button onClick={() => setTimeout(() => {
                                 window.open(item.facebookLink, '_blank')
@@ -60,7 +60,7 @@ const BandMember = () => {
                     </article>
                 ))}
             </article>
-            <article className='flex flex-col md:hidden items-center mt-10 mb-5'>
+            <article className='flex flex-col md:hidden items-center mx-2 mt-10 mb-5'>
                 {bandMemberList.map((member) => (
                     <>
                         <article className='mobile-member-container flex flex-col items-center w-[90%] mb-10 rounded-3xl'>

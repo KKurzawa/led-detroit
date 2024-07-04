@@ -1,10 +1,17 @@
 .testimonials-body{
     border-top: var(--BORDER-TWO);
+    position: relative;
+    z-index: 1;
 }
 
 .testimonial-container{
     font-family: var(--FONT-ONE); 
     color: var(--FONT-COLOR-THREE)
+}
+
+.testimonials-form-header{
+    font-family: var(--FONT-THREE);
+    color: var(--FONT-COLOR-THREE);
 }
 .testimonials-form{
     /* border-top: var(--BORDER-TWO); */

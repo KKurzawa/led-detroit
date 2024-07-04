@@ -10,7 +10,7 @@
     outline: var(--BORDER-FOUR); */
     border-radius: 50%;
     background-color: var(--BACKGROUND-COLOR-TWO);   
-    box-shadow: var(--BOX-SHADOW-ONE);
+    box-shadow: var(--BOX-SHADOW-THREE);
 }
 
 

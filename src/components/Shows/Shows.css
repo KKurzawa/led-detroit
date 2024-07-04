@@ -22,7 +22,7 @@
     position: absolute;
     content: '';
     background-size:cover;
-    background-image: url('../../../public/FourCropCircle2.png');
+    background-image: url('../../../public/FourCropCircle3.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
@@ -34,13 +34,13 @@
 
 @media (min-width: 481px) and (max-width: 830px) {
     .band-member-container::before {
-     background-image: url('../../../public/FourCropCircle2.png');
+     background-image: url('../../../public/FourCropCircle3.png');
      }
  }
 
 @media (max-width: 480px) {
     .show-card-container::before {
-     background-image: url('../../../public/SixCropCircle2.png');
+     background-image: url('../../../public/SixCropCircle3.png');
      }
  }
 

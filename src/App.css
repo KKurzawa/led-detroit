@@ -32,19 +32,25 @@
     --BORDER-THREE: 1px solid #B59330;
     --BORDER-FOUR: 4px solid #100D04;
     --BORDER-FIVE: 4px solid #B59330;
-    --BORDER-SIX: 4px solid #531b0e;
+    --BORDER-SIX: 4px solid #623f17;
 
     --BOX-SHADOW-ONE: 
-    0 0 0 2px #4b0707, 
+    0 0 0 2px #623f17, 
     0 0 0 4px #100D04,
     0 0 0 6px #B59330,
     0 0 0 8px #100D04;
 
     --BOX-SHADOW-TWO: 
-    0 0 0 1px #4b0707, 
+    0 0 0 1px #623f17, 
     0 0 0 2px #100D04,
     0 0 0 3px #B59330,
     0 0 0 4px #100D04;
+
+    --BOX-SHADOW-THREE: 
+    0 0 0 4px #623f17, 
+    0 0 0 8px #100D04,
+    0 0 0 12px #B59330,
+    0 0 0 16px #100D04;
   }
 
   html{

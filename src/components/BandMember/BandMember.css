@@ -32,7 +32,7 @@ z-index: 1;
     /* outline: var(--BORDER-FOUR); */
     z-index: 1;
     /* border: var(--BORDER-TWO) */
-    box-shadow: var(--BOX-SHADOW-ONE);
+    box-shadow: var(--BOX-SHADOW-THREE);
 }
 
 .member-name{

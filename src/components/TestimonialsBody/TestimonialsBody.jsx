@@ -70,13 +70,14 @@ const TestimonialsBody = () => {
                 {comments.map((item) => (
                     <ol key={item.firstName} className='flex flex-col'>
                         <li className='text-4xl mx-10 text-center'>{item.experience}</li>
-                        <article className='flex flex-row justify-end mr-20 text-2xl'>
-                            <li className='pr-1'>{item.firstName}</li>
+                        <article className='flex flex-row justify-end mr-20 text-2xl italic'>
+                            <li className='pr-1'>- {item.firstName}</li>
                             <li>{item.lastName}</li>
                         </article>
                     </ol>
                 ))}
             </article>
+            <h2 className='testimonials-form-header flex justify-center text-6xl'>Tell Us About Your Experience With Led-Detroit</h2>
             <form onSubmit={handleSubmit} className='testimonials-form flex flex-col items-center w-full h-auto'>
                 <article className='flex flex-col items-center w-full mb-2'>
                     <input className='first-name w-5/6 md:w-1/2 px-3 py-1 mb-2 mt-10 text-3xl rounded-2xl'
