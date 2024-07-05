@@ -66,33 +66,37 @@ const TestimonialsBody = () => {
 
     return (
         <main className='testimonials-body w-full h-auto'>
-            <article className='testimonial-container w-full h-auto my-10'>
+            <article className='testimonial-container w-full h-auto my-2 md:my-10'>
                 {comments.map((item) => (
-                    <ol key={item.firstName} className='flex flex-col'>
-                        <li className='text-4xl mx-10 text-center'>{item.experience}</li>
-                        <article className='flex flex-row justify-end mr-20 text-2xl italic'>
+                    <ol key={item.firstName} className='testimonial flex flex-col py-1 md:py-5'>
+                        <li className='text-xl md:text-3xl mx-4 md:mx-10 text-center'>{item.experience}</li>
+                        <article className='flex flex-row justify-end mx-4 md:mr-10 md:text-2xl italic'>
                             <li className='pr-1'>- {item.firstName}</li>
                             <li>{item.lastName}</li>
                         </article>
                     </ol>
                 ))}
             </article>
-            <h2 className='testimonials-form-header flex justify-center text-6xl'>Tell Us About Your Experience With Led-Detroit</h2>
+            <article className='small-testimonials-form-header flex flex-col lg:hidden items-center'>
+                <h2 className='text-3xl md:text-5xl'>Tell Us About Your Experience With</h2>
+                <h2 className='text-3xl md:text-5xl'>Led-Detroit</h2>
+            </article>
+            <h2 className='testimonials-form-header hidden lg:flex justify-center md:text-6xl'>Tell Us About Your Experience With Led-Detroit</h2>
             <form onSubmit={handleSubmit} className='testimonials-form flex flex-col items-center w-full h-auto'>
                 <article className='flex flex-col items-center w-full mb-2'>
-                    <input className='first-name w-5/6 md:w-1/2 px-3 py-1 mb-2 mt-10 text-3xl rounded-2xl'
+                    <input className='first-name w-5/6 md:w-1/2 px-3 py-1 mb-4 mt-4 md:mt-10 text-3xl rounded-2xl'
                         name="firstName" value={input.firstName}
                         type='text'
                         placeholder='Your First Name'
                         onChange={handleChange}
                     />
-                    <input className='last-name w-5/6 md:w-1/2 px-3 py-1 my-2 text-3xl rounded-2xl'
+                    <input className='last-name w-5/6 md:w-1/2 px-3 py-1 my-4 text-3xl rounded-2xl'
                         name="lastName" value={input.lastName}
                         type='text'
                         placeholder='Your Last Name'
                         onChange={handleChange}
                     />
-                    <textarea className='experience w-5/6 md:w-1/2 px-3 py-1 my-2 text-3xl rounded-2xl'
+                    <textarea className='experience w-5/6 md:w-1/2 px-3 py-1 my-4 text-3xl rounded-2xl'
                         type='text'
                         rows='5'
                         cols='10'
@@ -102,7 +106,7 @@ const TestimonialsBody = () => {
                         onChange={handleChange}
                     />
                 </article>
-                <button type='submit' className='post-btn w-44 rounded-2xl text-3xl mb-10 py-2'>ADD POST</button>
+                <button type='submit' className='post-btn w-44 rounded-2xl text-3xl mt-1 mb-10 py-2'>ADD POST</button>
             </form>
         </main>
     )

@@ -6,10 +6,15 @@
 
 .testimonial-container{
     font-family: var(--FONT-ONE); 
-    color: var(--FONT-COLOR-THREE)
+    color: var(--FONT-COLOR-THREE);  
 }
 
-.testimonials-form-header{
+.testimonial{
+    border-bottom: var(--BORDER-SIX);
+}
+
+.testimonials-form-header,
+.small-testimonials-form-header{
     font-family: var(--FONT-THREE);
     color: var(--FONT-COLOR-THREE);
 }
@@ -27,9 +32,11 @@
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR);
+    /* border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR); */
     font-family: var(--FONT-ONE); 
+    box-shadow: var(--BOX-SHADOW-THREE);
+    outline: none;
 }
 
 .first-name::placeholder,
@@ -42,15 +49,17 @@
 .post-btn{
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR);
+    /* border: var(--BORDER-TWO);
+    outline: var(--BORDER-FOUR); */
     transition: all 500ms ease-in-out;
     font-family: var(--FONT-THREE); 
+    box-shadow: var(--BOX-SHADOW-ONE);
 }
 
 .post-btn:hover{
     background-color: var(--BACKGROUND-COLOR-ONE);
     color: var(--FONT-COLOR-TWO);
-    border: var(--BORDER-ONE);
-    outline: var(--BORDER-FIVE);
+    box-shadow: var(--BOX-SHADOW-FOUR);
+    /* border: var(--BORDER-ONE);
+    outline: var(--BORDER-FIVE); */
 }

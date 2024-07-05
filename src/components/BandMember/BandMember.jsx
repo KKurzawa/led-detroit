@@ -3,7 +3,7 @@ import bandMemberList from '../../Utils/BandMemberList'
 const BandMember = () => {
     return (
         <main className='band-member-main w-full h-full'>
-            <article className='hidden md:flex justify-around my-10 w-full h-auto'>
+            <article id='member-container-top' className='hidden md:flex justify-around pb-5 mt-10 w-full h-auto'>
                 {bandMemberList.map((item, index) => index < 3 && (
                     <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-5 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
@@ -32,7 +32,7 @@ const BandMember = () => {
 
                 ))}
             </article>
-            <article className='hidden md:flex justify-center mb-10 mx-32'>
+            <article className='hidden md:flex justify-center pt-5 mb-10 mx-32'>
                 {bandMemberList.map((item, index) => index > 2 && (
                     <article key={item.id} className='member-container flex flex-col items-center w-full h-auto m-5 rounded-3xl'>
                         <h2 key={item.name} className='member-name flex md:text-4xl lg:text-5xl pt-2'>{item.name}</h2>
@@ -60,9 +60,9 @@ const BandMember = () => {
                     </article>
                 ))}
             </article>
-            <article className='flex flex-col md:hidden items-center mx-2 mt-10 mb-5'>
-                {bandMemberList.map((member) => (
-                    <>
+            <article className='flex flex-col md:hidden items-center mb-2'>
+                {bandMemberList.map((member, index) => (
+                    <section key={index} className='mobile-members flex flex-col items-center w-full mt-10 px-2'>
                         <article className='mobile-member-container flex flex-col items-center w-[90%] mb-10 rounded-3xl'>
                             <h2 key={member.name} className='mobile-member-header text-4xl pt-3'>{member.name}</h2>
                             <section className='img-container w-[85%] rounded-3xl mb-1'>
@@ -87,7 +87,7 @@ const BandMember = () => {
                                     , 500)}>{member.spotifyIcon}</button></i>
                             </article>
                         </article>
-                    </>
+                    </section>
                 ))}
             </article>
         </main>

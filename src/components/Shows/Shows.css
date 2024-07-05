@@ -17,7 +17,6 @@
     opacity: .15;    
     filter: sepia(.5)
 } */
-
 .show-card-container::before{
     position: absolute;
     content: '';

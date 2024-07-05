@@ -5,12 +5,22 @@
     border-bottom: var(--BORDER-ONE);
     position: relative;
 }
+
+.single-card-container{
+    border-bottom: var(--BORDER-SIX);
+}
+
+.single-card-container:last-child{
+    border-bottom: none;
+}
+
 .single-card{
     /* border: var(--BORDER-TWO);
     outline: var(--BORDER-FOUR); */
     border-radius: 50%;
     background-color: var(--BACKGROUND-COLOR-TWO);   
     box-shadow: var(--BOX-SHADOW-THREE);
+    /* border-bottom: var(--BORDER-SIX); */
 }
 
 
