@@ -23,5 +23,5 @@
 .mailto:hover,
 .phone:hover,
 .dev-link:hover{
-    color: #981F1F;
+    color: var(--FONT-COLOR-SIX);
 }

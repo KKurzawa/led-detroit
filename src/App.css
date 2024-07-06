@@ -17,7 +17,7 @@
     --FONT-COLOR-THREE: #B59330;
     --FONT-COLOR-FOUR: #6a2111;
     --FONT-COLOR-FIVE: #33180B;
-    --FONT-COLOR-SIX: #8c5a21;
+    --FONT-COLOR-SIX: #623f17;
     --FONT-COLOR-SEVEN: #922811;
 
     --BACKGROUND-COLOR-ONE: #B59330;
@@ -25,7 +25,7 @@
     --BACKGROUND-COLOR-THREE: #4b0707;
 
     /* borders */
-    --HOVER-BORDER-ONE: 2px solid #8c5a21;
+    --HOVER-BORDER-ONE: 2px solid #623f17;
 
     --BORDER-ONE: 2px solid #100D04;
     --BORDER-TWO: 2px solid #B59330;
@@ -33,6 +33,7 @@
     --BORDER-FOUR: 4px solid #100D04;
     --BORDER-FIVE: 4px solid #B59330;
     --BORDER-SIX: 2px solid #b5943089;
+    --BORDER-SEVEN: 2px solid #433610;
 
     --BOX-SHADOW-ONE: 
     0 0 0 2px #623f17, 

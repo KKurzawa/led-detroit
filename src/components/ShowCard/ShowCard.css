@@ -7,7 +7,7 @@
 }
 
 .single-card-container{
-    border-bottom: var(--BORDER-SIX);
+    border-bottom: var(--BORDER-SEVEN);
 }
 
 .single-card-container:last-child{
@@ -46,7 +46,7 @@
 
 .venue:hover,
 .tckt-btn:hover{
-    color: var(--FONT-COLOR-FOUR)
+    color: var(--FONT-COLOR-SIX)
 }
 
 

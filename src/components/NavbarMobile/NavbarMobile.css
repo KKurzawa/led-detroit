@@ -1,6 +1,11 @@
 .mobile-nav{
     z-index: 2;
     scroll-behavior: smooth;
+    
+}
+
+.mobile-ul{
+
 }
 
 #hamburger{
@@ -9,6 +14,7 @@
 }
 .motion-div{
     background-color: var(--BACKGROUND-COLOR-TWO);
+    border-bottom: var(--BORDER-TWO);
 }
 .route-title{
     border: 1px solid var(--FONT-COLOR-THREE);

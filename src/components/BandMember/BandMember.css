@@ -27,11 +27,11 @@ z-index: 1;
 }
 
 #member-container-top{
-    border-bottom: var(--BORDER-SIX);
+    border-bottom: var(--BORDER-SEVEN);
 }
 
 .mobile-members{
-    border-bottom: var(--BORDER-SIX);
+    border-bottom: var(--BORDER-SEVEN);
 }
 
 .mobile-members:last-child{
@@ -71,6 +71,6 @@ z-index: 1;
 }
 
 .media-icon:hover{
-    color: var(--FONT-COLOR-FOUR)
+    color: var(--FONT-COLOR-SIX)
 }
 

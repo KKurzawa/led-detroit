@@ -25,7 +25,7 @@ const NavbarMobile = () => {
                         transition={{ duration: 0.2 }}
                         className="motion-div absolute left-0 right-0 top-24 p-5 pt-0"
                     >
-                        <ul className="grid gap-2">
+                        <ul className="mobile-ul grid gap-7">
                             {Navlinks.map((route, idx) => {
                                 return (
                                     <motion.li
