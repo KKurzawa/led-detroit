@@ -2,19 +2,14 @@
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-TWO);
     transition: color .5s ease-in-out;
-    /* transition: background-color .5s ease-in-out; */
-}
-
-.nav-btn:hover{
-    color: var(--FONT-COLOR-SIX);
-    /* background-color: var(--BACKGROUND-COLOR-ONE); */
-}
-
-.nav-btn{
     position: relative;
     display: inline-block;
     padding-bottom: 7px;
     text-align: center;
+}
+
+.nav-btn:hover{
+    color: var(--FONT-COLOR-SIX);
 }
 
 .nav-btn::before{

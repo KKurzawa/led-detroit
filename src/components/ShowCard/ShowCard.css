@@ -6,21 +6,10 @@
     position: relative;
 }
 
-.single-card-container{
-    border-bottom: var(--BORDER-SEVEN);
-}
-
-.single-card-container:last-child{
-    border-bottom: none;
-}
-
 .single-card{
-    /* border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR); */
     border-radius: 50%;
     background-color: var(--BACKGROUND-COLOR-TWO);   
     box-shadow: var(--BOX-SHADOW-THREE);
-    /* border-bottom: var(--BORDER-SIX); */
 }
 
 
@@ -32,7 +21,6 @@
     font-family: var(--FONT-THREE);
     z-index: 1;
 }
-
 
 .venue,
 .tckt-btn{

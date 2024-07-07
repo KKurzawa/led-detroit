@@ -3,19 +3,16 @@
     z-index: 1;
 }
 
-/* #Band::before{
-    position: absolute;
-    content: '';
-    background-size:cover;
-    background-image: url('../../../public/CropCirclePicFour.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: .15;
-    filter: sepia(.5);
-} */
+.band-header{
+    color: var(--FONT-COLOR-TWO);
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    background-color: var(--BACKGROUND-COLOR-ONE);
+    font-family: var(--FONT-TWO);
+    border-top: var(--BORDER-ONE);
+    border-bottom: var(--BORDER-ONE);
+}
 
 .band-member-container::before{
     position: absolute;
@@ -28,7 +25,6 @@
     height: 100%;
     z-index: 0;
     opacity: .25;    
-    /* filter: sepia(.1) */
 }
 
 
@@ -43,32 +39,6 @@
      background-image: url('../../../public/NineCropCircle3.png');
      }
  }
- /* #Band::before{
-    position: absolute;
-    top: 5rem;
-    content: '';
-    width: 10%;
-    height: 10%;
-    background-color: var(--BACKGROUND-COLOR-ONE);
-    border-radius: 50%;
- } */
-
-
-  
-
-
-
-.band-header{
-    color: var(--FONT-COLOR-TWO);
-    position: relative;
-    opacity: 1;
-    z-index: 1;
-    background-color: var(--BACKGROUND-COLOR-ONE);
-    font-family: var(--FONT-TWO);
-    border-top: var(--BORDER-ONE);
-    border-bottom: var(--BORDER-ONE);
-}
-
 
 .band-top-btn-container{
     background-color: var(--BACKGROUND-COLOR-TWO);

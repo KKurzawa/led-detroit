@@ -19,7 +19,6 @@
     color: var(--FONT-COLOR-THREE);
 }
 .testimonials-form{
-    /* border-top: var(--BORDER-TWO); */
     border-bottom: var(--BORDER-ONE);
     position: relative;
     z-index: 1;
@@ -32,8 +31,6 @@
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    /* border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR); */
     font-family: var(--FONT-ONE); 
     box-shadow: var(--BOX-SHADOW-THREE);
     outline: none;
@@ -49,8 +46,6 @@
 .post-btn{
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    /* border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR); */
     transition: all 500ms ease-in-out;
     font-family: var(--FONT-THREE); 
     box-shadow: var(--BOX-SHADOW-ONE);
@@ -60,6 +55,4 @@
     background-color: var(--BACKGROUND-COLOR-ONE);
     color: var(--FONT-COLOR-TWO);
     box-shadow: var(--BOX-SHADOW-FOUR);
-    /* border: var(--BORDER-ONE);
-    outline: var(--BORDER-FIVE); */
 }

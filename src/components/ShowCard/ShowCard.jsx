@@ -34,7 +34,6 @@ const ShowCard = () => {
                                 window.open(item.ticketLink, '_blank')
                                 , 500)} className='tckt-btn'>Get Tickets</button>
                         }
-
                     </article>
                 </section>
             ))}

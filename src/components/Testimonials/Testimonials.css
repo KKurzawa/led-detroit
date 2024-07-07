@@ -16,7 +16,6 @@
     height: 100%;
     z-index: 0;
     opacity: .25;    
-    /* filter: sepia(.1) */
 }
 
 .testimonials-header{

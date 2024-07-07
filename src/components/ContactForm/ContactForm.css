@@ -13,8 +13,6 @@
     z-index: 1;
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    /* border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR); */
     font-family: var(--FONT-ONE);
     box-shadow: var(--BOX-SHADOW-THREE);
     outline: none;
@@ -31,8 +29,6 @@
 .submit-btn{
     background-color: var(--BACKGROUND-COLOR-TWO);
     color: var(--FONT-COLOR-THREE);
-    /* border: var(--BORDER-TWO);
-    outline: var(--BORDER-FOUR); */
     box-shadow: var(--BOX-SHADOW-ONE);
     transition: all 500ms ease-in-out;
     font-family: var(--FONT-THREE);
@@ -41,7 +37,5 @@
 .submit-btn:hover{
     background-color: var(--BACKGROUND-COLOR-ONE);
     color: var(--FONT-COLOR-TWO);
-    /* border: var(--BORDER-ONE);
-    outline: var(--BORDER-FIVE); */
     box-shadow: var(--BOX-SHADOW-FOUR);
 }
