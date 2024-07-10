@@ -5,6 +5,17 @@
     z-index: 1;
 }
 
-.ro-video{
+.single-video-container{
     box-shadow: var(--BOX-SHADOW-THREE);
+    position: relative;
+    z-index: 1;
+}
+
+.ro-video{
+    filter: sepia(1);
+    transition: filter .5s ease-in-out;
+}
+
+.ro-video:hover{
+    filter: sepia(.25);
 }

@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.show-card-container{
+background: linear-gradient(var(--BACKGROUND-COLOR-TWO) 0%, var(--BACKGROUND-COLOR-FOUR) 35%, var(--BACKGROUND-COLOR-TWO) 100%);
+}
+
 .show-card-container::before{
     position: absolute;
     content: '';
