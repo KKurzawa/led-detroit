@@ -2,6 +2,7 @@ import ZepPicOne from '/ZeppelinSymbolOne.png'
 import ZepPicTwo from '/ZeppelinSymbolTwo.png'
 import ZepPicThree from '/ZeppelinSymbolThree.png'
 import ZepPicFour from '/ZeppelinSymbolFour.png'
+import ZepPicFive from '/ZeppelinSymbolFive.png'
 
 const navLinks = [
     {
@@ -31,7 +32,7 @@ const navLinks = [
     {
         title: 'Contact',
         href: '#Contact',
-        pic: ZepPicOne,
+        pic: ZepPicFive,
         id: 5
     },
 ]

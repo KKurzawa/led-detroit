@@ -5,7 +5,7 @@
 }
 
 .show-card-container{
-background: linear-gradient(var(--BACKGROUND-COLOR-TWO) 0%, var(--BACKGROUND-COLOR-FOUR) 35%, var(--BACKGROUND-COLOR-TWO) 100%);
+background: var(--BACKGROUND-ONE)
 }
 
 .show-card-container::before{
@@ -28,6 +28,9 @@ background: linear-gradient(var(--BACKGROUND-COLOR-TWO) 0%, var(--BACKGROUND-COL
  }
 
 @media (max-width: 480px) {
+    .show-card-container{
+        background: var(--BACKGROUND-TWO)
+        }
     .show-card-container::before {
      background-image: url('../../../public/SixCropCircle3.png');
      }

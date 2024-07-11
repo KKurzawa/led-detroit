@@ -22,7 +22,9 @@
     --BACKGROUND-COLOR-ONE: #B59330;
     --BACKGROUND-COLOR-TWO: #100D04;
     --BACKGROUND-COLOR-THREE: #623f17;
-    --BACKGROUND-COLOR-FOUR: #3d270f;
+    --BACKGROUND-COLOR-FOUR: #2c1c0b;
+    --BACKGROUND-COLOR-FIVE: #1d1207;
+    --BACKGROUND-COLOR-SIX: #100D04;
 
     /* borders */
     --HOVER-BORDER-ONE: 2px solid #623f17;
@@ -34,6 +36,8 @@
     --BORDER-FIVE: 4px solid #B59330;
     --BORDER-SIX: 2px solid #b5943089;
     --BORDER-SEVEN: 2px solid #433610;
+
+    /* box-shadows */
 
     --BOX-SHADOW-ONE: 
     0 0 0 2px #623f17, 
@@ -58,6 +62,10 @@
     0 0 0 4px #623f17, 
     0 0 0 6px #100D04,
     0 0 0 8px #B59330; 
+
+    --BACKGROUND-ONE:linear-gradient(var(--BACKGROUND-COLOR-SIX) 0%, var(--BACKGROUND-COLOR-FIVE) 10%, var(--BACKGROUND-COLOR-FOUR) 25%, var(--BACKGROUND-COLOR-FOUR) 75%, var(--BACKGROUND-COLOR-FIVE) 90%, var(--BACKGROUND-COLOR-SIX) 100%);
+
+    --BACKGROUND-TWO:linear-gradient(var(--BACKGROUND-COLOR-SIX) 0%, var(--BACKGROUND-COLOR-FIVE) 5%, var(--BACKGROUND-COLOR-FOUR) 20%, var(--BACKGROUND-COLOR-FOUR) 80%, var(--BACKGROUND-COLOR-FIVE) 95%, var(--BACKGROUND-COLOR-SIX) 100%);
   }
 
   html{

@@ -6,8 +6,14 @@
 }
 
 .testimonials-body-container{
-    background: linear-gradient(var(--BACKGROUND-COLOR-TWO) 0%, var(--BACKGROUND-COLOR-FOUR) 35%, var(--BACKGROUND-COLOR-TWO) 100%);
+    background: var(--BACKGROUND-ONE);
     }
+
+ @media (max-width: 480px) {
+    .testimonials-body-container{
+        background: var(--BACKGROUND-TWO)
+        }
+ }   
 
 .testimonials-body-container::before{
     position: absolute;
