@@ -63,9 +63,12 @@
     0 0 0 6px #100D04,
     0 0 0 8px #B59330; 
 
+    /* backgrounds */
     --BACKGROUND-ONE:linear-gradient(var(--BACKGROUND-COLOR-SIX) 0%, var(--BACKGROUND-COLOR-FIVE) 10%, var(--BACKGROUND-COLOR-FOUR) 25%, var(--BACKGROUND-COLOR-FOUR) 75%, var(--BACKGROUND-COLOR-FIVE) 90%, var(--BACKGROUND-COLOR-SIX) 100%);
-
     --BACKGROUND-TWO:linear-gradient(var(--BACKGROUND-COLOR-SIX) 0%, var(--BACKGROUND-COLOR-FIVE) 5%, var(--BACKGROUND-COLOR-FOUR) 20%, var(--BACKGROUND-COLOR-FOUR) 80%, var(--BACKGROUND-COLOR-FIVE) 95%, var(--BACKGROUND-COLOR-SIX) 100%);
+
+    /* text-shadows */
+    --TEXT-SHADOW-ONE: #231d0c8c 4px 4px 3px;
   }
 
   html{
@@ -78,7 +81,7 @@
   }
 
   #app-main-container{
-    animation: main-fade-in 2s linear 1 both;
+    animation: main-fade-in 2s linear 1s 1 both;
   }
 
   @keyframes main-fade-in {
