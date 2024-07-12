@@ -43,9 +43,9 @@ const Landing = () => {
                     <h2 className='small-to'> TO</h2>
                 </article>
                 <article className='small-led-detroit-container flex justify-center items-center -mb-[12rem]'>
-                    <h2 className='small-led-detroit text-6xl font-bold'>LED-DETROIT</h2>
+                    <h2 className='small-led-detroit text-5xl font-bold'>LED-DETROIT</h2>
                 </article>
-                <article className='small-description flex flex-row justify-center items-center text-xl font-bold'>
+                <article className='small-description flex flex-row justify-center items-center text-lg font-bold'>
                     <h2 className='small-detroits pr-2'>DETROIT&apos;S</h2>
                     <h2 className='small-ultimate pr-2'>ULTIMATE</h2>
                     <h2 className='small-led-zeppelin pr-2'>LED-ZEPPELIN</h2>
