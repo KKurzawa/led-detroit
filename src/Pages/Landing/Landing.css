@@ -1,10 +1,10 @@
   /* large */
   .crop-circle-container{
     background: var(--BACKGROUND-ONE);
-    animation: crop-circle-container-fade-out 2s ease-in-out 6s 1 both
+    animation: fade-out 2s ease-in-out 5s 1 both
   }
 
-  @keyframes crop-circle-container-fade-out {
+  @keyframes fade-out {
     0%{
         opacity: 1;
     }
@@ -28,10 +28,10 @@
     0 0 0 4rem #623f17, 
     0 0 0 4.5rem #100D04, 
     0 0 0 5.5rem #B59330;
-    animation: welcome-to-container-fade-in 2s linear .5s 1 both;
+    animation: fade-in 2s linear .5s 1 both;
   }
   
-  @keyframes welcome-to-container-fade-in {
+  @keyframes fade-in {
     0%{
         opacity: 0;
     }
@@ -45,18 +45,18 @@
     color: var(--FONT-COLOR-SIX);
     background-color: transparent;
     transform: matrix(1, 0, 0, 15, 0, 0) rotateX(-75deg);
-    animation: welcome-to-fade-in 2s linear 2s 1 both;
+    animation: fade-in 2s linear 1.5s 1 both;
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  @keyframes welcome-to-fade-in {
+  /* @keyframes welcome-to-fade-in {
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-  }
+  } */
   
   .led-detroit-container{
     border-radius: 50%;
@@ -73,35 +73,35 @@
     0 0 0 8rem #623f17, 
     0 0 0 9rem #100D04, 
     0 0 0 11rem #B59330;
-    animation: led-detroit-container-fade-in 2s linear 1s 1 both;
+    animation: fade-in 2s linear .7s 1 both;
   }
   
-  @keyframes led-detroit-container-fade-in {
+  /* @keyframes led-detroit-container-fade-in {
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-  }
+  } */
   
   .led-detroit{
     color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-TWO);
     background-color: transparent;
     transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
-    animation: led-detroit-fade-in 2s linear 2.5s 1 both;
+    animation: fade-in 2s linear 2s 1 both;
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  @keyframes led-detroit-fade-in {
+  /* @keyframes led-detroit-fade-in {
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-  }
+  } */
   
   .description{
     border-radius: 50%;
@@ -118,17 +118,17 @@
     0 0 0 13.5rem #623f17, 
     0 0 0 15rem #100D04, 
     0 0 0 18rem #B59330;
-    animation: description-fade-in 2s linear 1.5s 1 both;
+    animation: fade-in 2s linear .9s 1 both;
   }
   
-  @keyframes description-fade-in {
+  /* @keyframes description-fade-in {
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-  }
+  } */
   
   .welcome,
   .to,
@@ -147,22 +147,23 @@
   .led-zeppelin,
   .experience-word{
     transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
-    animation: description-text-fade-in 2s linear 3s 1 both;
+    animation: fade-in 2s linear 2.5s 1 both;
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  @keyframes description-text-fade-in {
+  /* @keyframes description-text-fade-in {
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-  }
+  } */
   
   /* medium */
   .medium-crop-circle-container{
     background: linear-gradient(rgba(16,13,4,1) 0%, rgba(98,63,23,1) 50%, rgba(16,13,4,1) 100%);
+    animation: fade-out 2s ease-in-out 5s 1 both
   }
   
   .medium-welcome-to{
@@ -180,12 +181,14 @@
     0 0 0 2rem #623f17, 
     0 0 0 2.25rem #100D04, 
     0 0 0 2.75rem #B59330;
+    animation: fade-in 2s linear .5s 1 both;
   }
   
   .medium-welcome,
   .medium-to{
-    background-color: var(--BACKGROUND-COLOR-TWO);
-    transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+    background-color: transparent;
+    transform: matrix(1, 0, 0, 15, 0, 0) rotateX(-75deg);
+    animation: fade-in 2s linear 1.5s 1 both;
   }
   
   .medium-led-detroit-container{
@@ -203,13 +206,16 @@
     0 0 0 4.5rem #623f17, 
     0 0 0 5rem #100D04, 
     0 0 0 6rem #B59330;
+    animation: fade-in 2s linear .7s 1 both;
   }
   
   .medium-led-detroit{
     font-family: var(--FONT-TWO);
-    color: var(--FONT-COLOR);
-    background-color: var(--BACKGROUND-COLOR-TWO);
+    color: var(--FONT-COLOR-THREE);
+    background-color: transparent;
     transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
+    text-shadow: var(--TEXT-SHADOW-ONE);
+    animation: fade-in 2s linear 2s 1 both;
   }
   
   .medium-description{
@@ -227,17 +233,20 @@
     0 0 0 6.75rem #623f17, 
     0 0 0 7.5rem #100D04, 
     0 0 0 9rem #B59330;
+    animation: fade-in 2s linear .9s 1 both;
   }
+
   .medium-welcome,
   .medium-to,
   .medium-detroits,
   .medium-ultimate,
   .medium-led-zeppelin,
   .medium-experience-word{
-    color: var(--FONT-COLOR);
+    color: var(--FONT-COLOR-THREE);
     position: relative;
-    background-color: var(--BACKGROUND-COLOR-TWO);
-    font-family: var(--FONT-THREE);
+    background-color: transparent;
+    font-family: var(--FONT-TWO);
+    text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
   .medium-detroits,
@@ -245,11 +254,13 @@
   .medium-led-zeppelin,
   .medium-experience-word{
     transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+    animation: fade-in 2s linear 2.5s 1 both;
   }
   
   /* small */
   .small-crop-circle-container{
     background: linear-gradient(rgba(16,13,4,1) 0%, #623f17 35%, rgba(16,13,4,1) 100%);
+    animation: fade-out 2s ease-in-out 5s 1 both
   }
   
   .small-welcome-to{
@@ -267,12 +278,15 @@
     0 0 0 2rem #623f17, 
     0 0 0 2.25rem #100D04, 
     0 0 0 2.75rem #B59330;
+    animation: fade-in 2s linear .5s 1 both;
   }
   
   .small-welcome,
   .small-to{
     background-color: var(--BACKGROUND-COLOR-TWO);
-    transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+    transform: matrix(1, 0, 0, 15, 0, 0) rotateX(-75deg);
+    animation: fade-in 2s linear 1.5s 1 both;
+    text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
   .small-led-detroit-container{
@@ -290,13 +304,16 @@
     0 0 0 2rem #623f17, 
     0 0 0 2.25rem #100D04, 
     0 0 0 2.75rem #B59330;
+    animation: fade-in 2s linear .7s 1 both;
   }
   
   .small-led-detroit{
-    color: var(--FONT-COLOR);
+    color: var(--FONT-COLOR-THREE);
     font-family: var(--FONT-TWO);
-    background-color: var(--BACKGROUND-COLOR-TWO);
+    background-color: transparent;
     transform: matrix(1, 0, 0, 12, 0, 0) rotateX(-75deg);
+    animation: fade-in 2s linear 2s 1 both;
+    text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
   .small-description{
@@ -314,6 +331,7 @@
     0 0 0 4rem #623f17, 
     0 0 0 4.5rem #100D04, 
     0 0 0 5.5rem #B59330;
+    animation: fade-in 2s linear .9s 1 both;
   }
   .small-welcome,
   .small-to,
@@ -321,10 +339,11 @@
   .small-ultimate,
   .small-led-zeppelin,
   .small-experience-word{
-    color: var(--FONT-COLOR);
+    color: var(--FONT-COLOR-THREE);
     position: relative;
-    background-color: var(--BACKGROUND-COLOR-TWO);
-    font-family: var(--FONT-THREE);
+    background-color: transparent;
+    font-family: var(--FONT-TWO);
+    text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
   .small-detroits,
@@ -332,6 +351,8 @@
   .small-led-zeppelin,
   .small-experience-word{
     transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
+    animation: fade-in 2s linear 2.5s 1 both;
+    text-shadow: var(--TEXT-SHADOW-ONE);
   }
 /* .landing-header,
 .landing-description{
