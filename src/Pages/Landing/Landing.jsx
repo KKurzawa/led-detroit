@@ -15,7 +15,7 @@ const Landing = () => {
                         <img src={ZepSymbolThree} alt='Zeppelin Symbol' className='zep-symbols w-14 h-14' />
                         <img src={ZepSymbolFour} alt='Zeppelin Symbol' className='zep-symbols w-14 h-14' />
                     </article>
-                    <article className='landing-body flex flex-col items-center justify-evenly w-full h-full py-12 md:py-10 lg:py-24'>
+                    <article className='landing-body flex flex-col items-center justify-evenly w-full h-full py-12 md:py-10 lg:py-20'>
                         <h1 className='led-detroit flex justify-center items-center text-7xl md:text-9xl font-bold w-fit h-fit px-4 pb-4 pt-6 mb-14 md:mb-10 lg:mb-16 rounded-2xl'>LED-DETROIT</h1>
                         {/* small */}
                         <article className='small-description flex md:hidden flex-col justify-center items-center px-2 py-2 mb-10 font-bold'>
