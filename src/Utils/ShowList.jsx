@@ -1,12 +1,5 @@
 const showList = [
     {
-        date: 'July 12 2024 7pm',
-        venue: 'The Cadieux Cafe',
-        location: 'Detroit MI',
-        venueLink: 'https://cadieuxcafe.com/',
-        ticketLink: 1
-    },
-    {
         date: 'August 17 2024 7pm',
         venue: 'Wildwood Ampetheater',
         location: 'Lake Orion MI',
@@ -19,6 +12,20 @@ const showList = [
         location: 'Shelby Twp MI',
         venueLink: 'https://www.metroparks.com/concerts/',
         ticketLink: 2
+    },
+    {
+        date: 'February 7 2025 8pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit MI',
+        venueLink: 'https://cadieuxcafe.com/',
+        ticketLink: 1
+    },
+    {
+        date: 'February 8 2025 8pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit MI',
+        venueLink: 'https://cadieuxcafe.com/',
+        ticketLink: 1
     },
 ]
 

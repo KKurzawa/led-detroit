@@ -1,4 +1,139 @@
-  /* large */
+.landing-main{
+  position: relative;
+  border-top: 2px solid #B59330;
+  border-bottom: 2px solid #B59330;
+  animation: landing-fade-in 2s linear 1 both;
+}
+
+@keyframes landing-fade-in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  } 
+}
+
+.landing-main-two{
+  animation: landing-fade-out 2s linear 5s 1 both;
+}
+@keyframes landing-fade-out {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  } 
+}
+
+.zep-symbols-landing,
+.landing-footer{
+  background-color: #B59330;
+  border-top: 2px solid #100D04;
+  border-bottom: 2px solid #100D04;
+}
+
+.zep-symbols,
+.site-credit{
+  color: #100D04;
+  background-color: #B59330;
+}
+
+.landing-body{
+  position: relative;
+  font-family: 'Kashmir', sans-serif;
+  border-top: 2px solid #B59330;
+  border-bottom: 2px solid #B59330;;
+  background: linear-gradient(#100D04 0%, #1d1207 10%, #2c1c0b 25%, #2c1c0b 75%, #1d1207 90%, #100D04 100%);;
+}
+
+.landing-body::before{
+  position: absolute;
+  content: '';
+  background-size:cover;
+  background-image: url('../../../public/OneCropCircle3.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: .25;  
+  overflow: hidden;  
+}
+
+.led-detroit,
+.description{
+  position: relative;
+  z-index: 1;
+  color: #B59330;
+  background-color: #100D04;
+  box-shadow: 
+  0 0 0 4px #623f17, 
+  0 0 0 8px #100D04,
+  0 0 0 12px #B59330,
+  0 0 0 16px #100D04;
+}
+
+.small-description{
+  position: relative;
+  z-index: 1;
+  color: #B59330;
+  background-color: #100D04;
+  box-shadow: 
+  0 0 0 4px #623f17, 
+  0 0 0 8px #100D04,
+  0 0 0 12px #B59330,
+  0 0 0 16px #100D04;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+}
+
+.medium-description{
+  position: relative;
+  z-index: 1;
+  color: #B59330;
+  background-color: #100D04;
+  box-shadow: 
+  0 0 0 4px #623f17, 
+  0 0 0 8px #100D04,
+  0 0 0 12px #B59330,
+  0 0 0 16px #100D04;
+  width: 575px;
+  height: 575px;
+  border-radius: 50%;
+}
+
+.enter-btn{
+  background-color: #100D04;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  color: #B59330;
+  transition: all 500ms ease-in-out;
+  box-shadow: 
+  0 0 0 2px #623f17, 
+  0 0 0 4px #100D04,
+  0 0 0 6px #B59330,
+  0 0 0 8px #100D04;;
+}
+
+.enter-btn:hover{
+  background-color: #B59330;
+  color: #100D04;
+  box-shadow: 
+  0 0 0 2px #100D04,
+  0 0 0 4px #623f17, 
+  0 0 0 6px #100D04,
+  0 0 0 8px #B59330; 
+}
+
+.landing-footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-family: 'Kashmir', sans-serif;
+}
+  /* large
   .crop-circle-container{
     background: var(--BACKGROUND-ONE);
     animation: fade-out 2s ease-in-out 5s 1 both
@@ -20,7 +155,7 @@
     transform: rotateX(75deg);
     background-color: var(--BACKGROUND-COLOR-TWO);
     box-shadow: 
-    /* 0 0 0 .5rem #100D04, */
+    0 0 0 .5rem #100D04,
     0 0 0 1.5rem #623f17, 
     0 0 0 2rem #100D04,
     0 0 0 2.5rem #B59330,
@@ -49,14 +184,6 @@
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  /* @keyframes welcome-to-fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-  } */
   
   .led-detroit-container{
     border-radius: 50%;
@@ -65,7 +192,6 @@
     width: 35rem;
     height: 35rem;
     box-shadow: 
-    /* 0 0 0 1rem #100D04, */
     0 0 0 2rem #623f17, 
     0 0 0 3rem #100D04,
     0 0 0 5rem #B59330,
@@ -76,14 +202,7 @@
     animation: fade-in 2s linear .7s 1 both;
   }
   
-  /* @keyframes led-detroit-container-fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-  } */
+
   
   .led-detroit{
     color: var(--FONT-COLOR-THREE);
@@ -94,14 +213,7 @@
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  /* @keyframes led-detroit-fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-  } */
+  
   
   .description{
     border-radius: 50%;
@@ -110,7 +222,7 @@
     width: 45rem;
     height: 45rem;
     box-shadow: 
-    /* 0 0 0 1.5rem #100D04, */
+
     0 0 0 4.5rem #623f17, 
     0 0 0 6rem #100D04,
     0 0 0 9rem #B59330,
@@ -121,14 +233,7 @@
     animation: fade-in 2s linear .9s 1 both;
   }
   
-  /* @keyframes description-fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-  } */
+
   
   .welcome,
   .to,
@@ -151,16 +256,9 @@
     text-shadow: var(--TEXT-SHADOW-ONE);
   }
   
-  /* @keyframes description-text-fade-in {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-  } */
+
   
-  /* medium */
+  medium
   .medium-crop-circle-container{
     background: linear-gradient(rgba(16,13,4,1) 0%, rgba(98,63,23,1) 50%, rgba(16,13,4,1) 100%);
     animation: fade-out 2s ease-in-out 5s 1 both
@@ -173,7 +271,6 @@
     transform: rotateX(75deg);
     background-color: var(--BACKGROUND-COLOR-TWO);
     box-shadow: 
-    /* 0 0 0 .25rem #100D04, */
     0 0 0 .5rem #623f17, 
     0 0 0 .75rem #100D04,
     0 0 0 1.25rem #B59330,
@@ -198,7 +295,7 @@
     width: 28rem;
     height: 28rem;
     box-shadow: 
-    /* 0 0 0 .5rem #100D04, */
+  
     0 0 0 1.5rem #623f17, 
     0 0 0 2rem #100D04,
     0 0 0 3rem #B59330,
@@ -225,7 +322,6 @@
     width: 32rem;
     height: 32rem;
     box-shadow: 
-    /* 0 0 0 .75rem #100D04, */
     0 0 0 2.25rem #623f17, 
     0 0 0 3rem #100D04,
     0 0 0 4.5rem #B59330,
@@ -257,7 +353,7 @@
     animation: fade-in 2s linear 2.5s 1 both;
   }
   
-  /* small */
+  small
   .small-crop-circle-container{
     background: linear-gradient(rgba(16,13,4,1) 0%, #623f17 35%, rgba(16,13,4,1) 100%);
     animation: fade-out 2s ease-in-out 5s 1 both
@@ -270,7 +366,7 @@
     transform: rotateX(75deg);
     background-color: var(--BACKGROUND-COLOR-TWO);
     box-shadow: 
-    /* 0 0 0 .15rem #100D04, */
+
     0 0 0 .5rem #623f17, 
     0 0 0 .75rem #100D04,
     0 0 0 1.25rem #B59330,
@@ -296,7 +392,7 @@
     width: 17.5rem;
     height: 17.5rem;
     box-shadow: 
-    /* 0 0 0 .25rem #100D04, */
+
     0 0 0 .5rem #623f17, 
     0 0 0 .75rem #100D04,
     0 0 0 1.25rem #B59330,
@@ -323,7 +419,7 @@
     width: 22rem;
     height: 22rem;
     box-shadow: 
-    /* 0 0 0 .5rem #100D04, */
+
     0 0 0 1rem #623f17, 
     0 0 0 1.5rem #100D04,
     0 0 0 2.5rem #B59330,
@@ -353,7 +449,7 @@
     transform: matrix(1, 0, 0, 24, 0, 0) rotateX(-75deg);
     animation: fade-in 2s linear 2.5s 1 both;
     text-shadow: var(--TEXT-SHADOW-ONE);
-  }
+  } */
 /* .landing-header,
 .landing-description{
     color: var(--FONT-COLOR-THREE);
