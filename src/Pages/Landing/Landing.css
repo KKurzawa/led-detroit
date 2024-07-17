@@ -15,7 +15,7 @@
 }
 
 .landing-main-two{
-  animation: landing-fade-out 2s linear 5s 1 both;
+  animation: landing-fade-out 2s linear 3s 1 both;
 }
 @keyframes landing-fade-out {
   0%{

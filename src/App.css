@@ -81,7 +81,7 @@
   }
 
   #app-main-container{
-    animation: main-fade-in 2s linear 1s 1 both;
+    animation: main-fade-in 1s linear 1s 1 both;
   }
 
   @keyframes main-fade-in {
