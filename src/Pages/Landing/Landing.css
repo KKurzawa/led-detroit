@@ -1,7 +1,7 @@
 .landing-main{
   position: relative;
-  border-top: 2px solid #B59330;
-  border-bottom: 2px solid #B59330;
+  border-top: var(--BORDER-TWO);
+  border-bottom: var(--BORDER-TWO);
   animation: landing-fade-in 2s linear 1 both;
 }
 
@@ -28,23 +28,23 @@
 
 .zep-symbols-landing,
 .landing-footer{
-  background-color: #B59330;
-  border-top: 2px solid #100D04;
-  border-bottom: 2px solid #100D04;
+  background-color: var(--BACKGROUND-COLOR-ONE);
+  border-top: var(--BORDER-ONE);
+  border-bottom: var(--BORDER-ONE);
 }
 
 .zep-symbols,
 .site-credit{
-  color: #100D04;
-  background-color: #B59330;
+  color: var(--FONT-COLOR-TWO);
+  background-color: var(--BACKGROUND-COLOR-ONE);
 }
 
 .landing-body{
   position: relative;
-  font-family: 'Kashmir', sans-serif;
-  border-top: 2px solid #B59330;
-  border-bottom: 2px solid #B59330;;
-  background: linear-gradient(#100D04 0%, #1d1207 10%, #2c1c0b 25%, #2c1c0b 75%, #1d1207 90%, #100D04 100%);;
+  font-family: var(--FONT-TWO);
+  border-top: var(--BORDER-TWO);
+  border-bottom: var(--BORDER-TWO);;
+  background: var(--BACKGROUND-ONE)
 }
 
 .landing-body::before{
