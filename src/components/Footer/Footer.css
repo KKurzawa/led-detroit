@@ -1,6 +1,7 @@
 .footer{
     background-color: var(--BACKGROUND-COLOR-ONE);
     border-top: var(--BORDER-ONE);
+    border-bottom: var(--BORDER-ONE);
 }
 
 .mailto,
@@ -16,12 +17,14 @@
 
 .mailto,
 .phone,
-.dev-link{
+.dev-link,
+.social-icon{
     transition: color .5s ease-in-out;
 }
 
 .mailto:hover,
 .phone:hover,
-.dev-link:hover{
+.dev-link:hover,
+.social-icon:hover{
     color: var(--FONT-COLOR-SIX);
 }

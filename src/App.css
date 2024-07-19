@@ -69,6 +69,7 @@
 
     /* text-shadows */
     --TEXT-SHADOW-ONE: #231d0c8c 4px 4px 3px;
+    --TEXT-SHADOW-TWO: 1.5px 1.5px 3px #100D04;
   }
 
   html{
@@ -82,6 +83,7 @@
 
   #app-main-container{
     animation: main-fade-in 1s linear 1s 1 both;
+    border-bottom: var(--BORDER-TWO);
   }
 
   @keyframes main-fade-in {

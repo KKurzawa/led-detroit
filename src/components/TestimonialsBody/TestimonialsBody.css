@@ -13,6 +13,14 @@
     border-bottom: var(--BORDER-SIX);
 }
 
+.user-name,
+.user-experience,
+.testimonials-form-header,
+.small-testimonials-form-header{
+    text-shadow: var(--TEXT-SHADOW-TWO);
+}
+
+
 .testimonials-form-header,
 .small-testimonials-form-header{
     font-family: var(--FONT-THREE);

@@ -69,8 +69,8 @@ const TestimonialsBody = () => {
             <article className='testimonial-container w-full h-auto my-2 md:my-10'>
                 {comments.map((item) => (
                     <ol key={item.firstName} className='testimonial flex flex-col py-1 md:py-5'>
-                        <li className='text-xl md:text-3xl mx-4 md:mx-10 text-center'>{item.experience}</li>
-                        <article className='flex flex-row justify-end mx-4 md:mr-10 md:text-2xl italic'>
+                        <li className='user-experience text-xl md:text-3xl mx-4 md:mx-10 text-center'>{item.experience}</li>
+                        <article className='user-name flex flex-row justify-end mx-4 md:mr-10 md:text-2xl italic'>
                             <li className='pr-1'>- {item.firstName}</li>
                             <li>{item.lastName}</li>
                         </article>

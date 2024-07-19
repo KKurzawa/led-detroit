@@ -5,11 +5,11 @@ const Footer = () => {
     const today = new Date();
     return (
         <footer className='footer flex flex-col items-center text-xl py-2'>
-            <ol className='flex justify-center'>
+            <ol className='flex justify-center py-[.1rem] gap-10 md:gap-20 text-5xl md:text-7xl'>
 
                 {socialMedia.map((item) => (
                     <li key={item.id} className='social-icon'>
-                        <i><a href={item.link} target='__blank'>{item.icon}</a></i></li>
+                        <i><button onClick={() => setTimeout(() => window.open(item.link, '_blank'), 500)}>{item.icon}</button></i></li>
                 ))}
 
             </ol>
