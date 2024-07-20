@@ -11,3 +11,8 @@ A professional website for Led Detroi built with React, styled with Tailwind, an
 ![screenshot4](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot4.png)
 ![screenshot5](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot5.png)
 ![screenshot6](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot6.png)
+![screenshot7](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot7.png)
+![screenshot8](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot8.png)
+![screenshot9](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot9.png)
+![screenshot10](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot10.png)
+![screenshot11](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot11.png)
