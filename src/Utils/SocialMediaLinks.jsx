@@ -16,7 +16,7 @@ const socialMedia = [
     {
         id: 3,
         icon: <IoLogoYoutube />,
-        link: ''
+        link: 'https://www.youtube.com/@gitterk'
     },
 ]
 
