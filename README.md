@@ -16,3 +16,25 @@ A professional website for Led Detroi built with React, styled with Tailwind, an
 ![screenshot9](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot9.png)
 ![screenshot10](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot10.png)
 ![screenshot11](https://github.com/KKurzawa/led-detroit/blob/main/public/Screenshot11.png)
+
+[Github Repository](https://github.com/KKurzawa/led-detroit)
+
+[Deployed Site](https://led-detroit.vercel.app/)
+
+[Server Github Repository](https://github.com/KKurzawa/led-detroit-server)
+
+## Credits
+
+n/a
+
+## Questions
+
+[Github Profile](https://github.com/KKurzawa)
+
+Email me at kurzawa1@yahoo.com for questions.
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Kris Kurzawa
