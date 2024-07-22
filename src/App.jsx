@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 6000);
+    }, 5000);
   }, []);
 
   if (isLoading) {
