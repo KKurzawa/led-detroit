@@ -14,6 +14,13 @@ const showList = [
         ticketLink: 2
     },
     {
+        date: 'September 11 2024 7pm',
+        venue: "The AMP - Brighton's Ampthitheater on Mill Pond",
+        location: 'Brighton MI',
+        venueLink: 'https://2stonesevents.com/new-events/8/6/2022/turn-up-the-amp-featuring-txnyz-lx3h3-yw8n5-cgxt6-k587j-82br2-ksxcn-w9rtt',
+        ticketLink: 2
+    },
+    {
         date: 'February 7 2025 8pm',
         venue: 'The Cadieux Cafe',
         location: 'Detroit MI',
