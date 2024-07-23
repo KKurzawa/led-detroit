@@ -33,7 +33,7 @@ const Landing = () => {
                         <h2 className='description hidden lg:flex justify-center items-center text-7xl font-bold w-fit h-fit px-4 py-4 mb-9 rounded-2xl'>DETROIT&apos;S ULTIMATE LED-ZEPPELIN EXPERIENCE</h2>
                     </article>
                     <footer className='landing-footer flex justify-center items-center w-full h-20'>
-                        <h2 className='site-credit flex justify-center items-center text-xl lg:text-3xl font-bold'>SITE DESIGNED AND DEVELOPED BY KRIS KURZAWA</h2>
+                        <h2 className='site-credit flex justify-center items-center text-lg md:text-xl lg:text-3xl font-bold'>SITE DESIGNED AND DEVELOPED BY KRIS KURZAWA</h2>
                     </footer>
                 </main>
             </div>

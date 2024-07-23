@@ -11,7 +11,7 @@ const socialMedia = [
     {
         id: 2,
         icon: <FaInstagramSquare />,
-        link: ''
+        link: 'https://www.instagram.com/leddetroit/'
     },
     {
         id: 3,
