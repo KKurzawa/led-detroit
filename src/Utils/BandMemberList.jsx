@@ -14,7 +14,7 @@ const bandMemberList = [
         id: 1,
         name: 'Barbara Payton',
         image: Barb,
-        artists: 'Bob Seeger/Kid Rock/Barbara Payton and the Instigators',
+        artists: 'Bob Seger/Kid Rock/Barbara Payton and the Instigators',
         facebookIcon: false,
         facebookLink: false,
         instagramIcon: false,
