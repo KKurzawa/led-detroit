@@ -1,12 +1,5 @@
 const showList = [
     {
-        date: 'August 17 2024 7pm',
-        venue: 'Wildwood Ampetheater',
-        location: 'Lake Orion MI',
-        venueLink: 'https://wildwood.events/',
-        ticketLink: 'https://wildwood.events/event/tributes-to-led-zeppelin-and-the-who/'
-    },
-    {
         date: 'August 23 2024 7pm',
         venue: 'Stony Creek Metropark',
         location: 'Shelby Twp MI',
