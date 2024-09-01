@@ -19,7 +19,7 @@ A professional website for Led Detroi built with React, styled with Tailwind, an
 
 [Github Repository](https://github.com/KKurzawa/led-detroit)
 
-[Deployed Site](https://led-detroit.vercel.app/)
+[Deployed Site](https://www.leddetroitband.com/)
 
 [Server Github Repository](https://github.com/KKurzawa/led-detroit-server)
 
