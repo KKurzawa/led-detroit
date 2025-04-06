@@ -1,9 +1,9 @@
 const showList = [
     {
         date: 'May 17 2025 7:30pm',
-        venue: 'Comins, MI',
+        venue: 'Skyline Event Center',
         location: 'Comins, MI',
-        venueLink: 'http://www.cominstwp.com/',
+        venueLink: 'https://www.skylineeventcenter.org/',
         ticketLink: 1
     },
     {
