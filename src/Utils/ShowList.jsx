@@ -1,16 +1,9 @@
 const showList = [
     {
-        date: 'February 7 2025 8pm',
-        venue: 'The Cadieux Cafe',
-        location: 'Detroit, MI',
-        venueLink: 'https://cadieuxcafe.com/',
-        ticketLink: 1
-    },
-    {
-        date: 'February 8 2025 8pm',
-        venue: 'The Cadieux Cafe',
-        location: 'Detroit, MI',
-        venueLink: 'https://cadieuxcafe.com/',
+        date: 'May 17 2025 7:30pm',
+        venue: 'Comins, MI',
+        location: 'Comins, MI',
+        venueLink: 'http://www.cominstwp.com/',
         ticketLink: 1
     },
     {
@@ -18,7 +11,7 @@ const showList = [
         venue: 'The Cadieux Cafe',
         location: 'Detroit, MI',
         venueLink: 'https://cadieuxcafe.com/',
-        ticketLink: 1
+        ticketLink: 'https://www.eventbrite.com/e/cadieux-cafe-presents-barbara-paytonkris-kurzawas-led-zeppelin-tribute-tickets-1307177706709?aff=efbevent&fbclid=IwY2xjawJf0_ZleHRuA2FlbQIxMAABHlcxijqtcDa-YAWP03uhtuEaelbczUn7dbh0Cv6o-kXmRkGPz97wfIVy45WP_aem_vFLFK174_hSHFPWCawVczA'
     },
     {
         date: 'June 28 2025 7:30pm',
@@ -50,6 +43,20 @@ const showList = [
     },
     {
         date: 'September 27 2025 7:30pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit, MI',
+        venueLink: 'https://cadieuxcafe.com/',
+        ticketLink: 1
+    },
+    {
+        date: 'February 20 2026 8:30pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit, MI',
+        venueLink: 'https://cadieuxcafe.com/',
+        ticketLink: 1
+    },
+    {
+        date: 'February 21 2026 8:30pm',
         venue: 'The Cadieux Cafe',
         location: 'Detroit, MI',
         venueLink: 'https://cadieuxcafe.com/',
