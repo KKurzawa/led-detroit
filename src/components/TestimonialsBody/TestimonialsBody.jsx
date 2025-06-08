@@ -55,6 +55,7 @@ const TestimonialsBody = () => {
         if (input.firstName && input.lastName && input.experience) {
             alert(`Thank you ${input.firstName} ${input.lastName} for your comment!`);
             axios.post(`${apiBaseUrl}/create`, newComment).then(result => {
+                console.log(result)
                 location.reload()
             }).catch(error => {
                 console.error(error);

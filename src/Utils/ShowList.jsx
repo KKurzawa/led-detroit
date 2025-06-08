@@ -21,14 +21,14 @@ const showList = [
         ticketLink: 1
     },
     {
-        date: 'June 25 2025 7pm',
+        date: 'July 25 2025 7pm',
         venue: 'Stony Creek Metropark',
         location: 'Shelby Twp, MI',
         venueLink: 'https://www.michigan.org/property/stony-creek-metropark',
         ticketLink: 2
     },
     {
-        date: 'June 26 2025 7:30pm',
+        date: 'July 26 2025 7:30pm',
         venue: 'The Cadieux Cafe',
         location: 'Detroit, MI',
         venueLink: 'https://cadieuxcafe.com/',
