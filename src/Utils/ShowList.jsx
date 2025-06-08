@@ -1,19 +1,5 @@
 const showList = [
     {
-        date: 'May 17 2025 7:30pm',
-        venue: 'Skyline Event Center',
-        location: 'Comins, MI',
-        venueLink: 'https://www.skylineeventcenter.org/',
-        ticketLink: 1
-    },
-    {
-        date: 'May 24 2025 7:30pm',
-        venue: 'The Cadieux Cafe',
-        location: 'Detroit, MI',
-        venueLink: 'https://cadieuxcafe.com/',
-        ticketLink: 'https://www.eventbrite.com/e/cadieux-cafe-presents-barbara-paytonkris-kurzawas-led-zeppelin-tribute-tickets-1307177706709?aff=efbevent&fbclid=IwY2xjawJf0_ZleHRuA2FlbQIxMAABHlcxijqtcDa-YAWP03uhtuEaelbczUn7dbh0Cv6o-kXmRkGPz97wfIVy45WP_aem_vFLFK174_hSHFPWCawVczA'
-    },
-    {
         date: 'June 28 2025 7:30pm',
         venue: 'The Cadieux Cafe',
         location: 'Detroit, MI',
